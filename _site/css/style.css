@@ -1,0 +1,75 @@
+:root { --bs-dark: #212529; --bs-primary-rgb: 255,0,0; font-size: 0.8rem; }
+
+.navbar { --bs-navbar-brand-font-size: 1.25em; }
+
+.base-fs-s { font-size: 0.8em; }
+
+.base-fs-l { font-size: 1.2em; }
+
+@media only screen and (min-width: 0px) { .fs-s { font-size: 0.8em; } .fs-l { font-size: 1.2em; } }
+
+@media only screen and (min-width: 576px) { .fs-sm-s { font-size: 0.8em; } .fs-sm-l { font-size: 1.2em; } }
+
+@media only screen and (min-width: 768px) { .fs-md-s { font-size: 0.8em; } .fs-md-l { font-size: 1.2em; } }
+
+@media only screen and (min-width: 992px) { .fs-lg-s { font-size: 0.8em; } .fs-lg-l { font-size: 1.2em; } }
+
+@media only screen and (min-width: 1200px) { .fs-xl-s { font-size: 0.8em; } .fs-xl-l { font-size: 1.2em; } }
+
+@media only screen and (min-width: 1400px) { .fs-xxl-s { font-size: 0.8em; } .fs-xxl-l { font-size: 1.2em; } }
+
+.ft-default, body { font-family: "Montserrat"; }
+
+.fw-h1, h1 { font-weight: 900; }
+
+.fw-h2, h2 { font-weight: 700; }
+
+.fw-h3, h3 { font-weight: 700; }
+
+.fs-h1, h1 { font-size: 1.7em; }
+
+.fs-h2, h2 { font-size: 1.5em; }
+
+.fs-h3, h3 { font-size: 1.2em; }
+
+.cp-d, .content p, .content ul, .content ol { padding-bottom: 1em; }
+
+.mt-n3 { margin-top: -5em; }
+
+.mt-n6 { margin-top: -12em; }
+
+.bg-overlay-gradient-bottom-dark { background: linear-gradient(to bottom, transparent, var(--bs-dark)); }
+
+.bg-image-default { background-size: cover; background-position: center; }
+
+.bg-frost { backdrop-filter: blur(0.7rem); background: linear-gradient(45deg, black, #00000063, #0000002e); }
+
+.shadow-deep { box-shadow: 0 0 10px var(--bs-dark); }
+
+.image-default { object-fit: cover; }
+
+.aspect-ratio-4-3 { aspect-ratio: 4/3; }
+
+.aspect-ratio-3-4 { aspect-ratio: 3/4; }
+
+.aspect-ratio-1-1 { aspect-ratio: 1/1; }
+
+.aspect-ratio-1-2 { aspect-ratio: 1/2; }
+
+.aspect-ratio-2-1 { aspect-ratio: 2/1; }
+
+.hero-3 { min-height: 60em; object-fit: cover; }
+
+.hero-content-3 { margin-bottom: 16rem !important; }
+
+.splash-follower { top: -14rem; position: relative; margin-bottom: -14rem; }
+
+[data-highlight]::before { content: attr(data-highlight); display: block; text-transform: uppercase; font-size: 0.5em; opacity: 0.5; padding-bottom: 0.5em; }
+
+.navbar-brand { font-size: 1.5rem; font-weight: 600; font-family: "Titillium Web"; }
+
+.navbar-brand span { margin-left: 12px; vertical-align: middle; }
+
+.navbar-brand::after { font-weight: normal; font-size: 1.4rem; top: -0.4rem; position: relative; }
+
+/*# sourceMappingURL=style.css.map */
