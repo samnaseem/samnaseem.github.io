@@ -18,6 +18,8 @@
 
 @media only screen and (min-width: 1400px) { .fs-xxl-s { font-size: 0.8em; } .fs-xxl-l { font-size: 1.2em; } }
 
+.ft-brand, .navbar-brand { font-family: "Titillium Web"; }
+
 .ft-default, body { font-family: "Montserrat"; }
 
 .fw-h1, h1 { font-weight: 900; }
