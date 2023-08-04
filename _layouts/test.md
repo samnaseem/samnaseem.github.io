@@ -163,6 +163,32 @@
 </div>
 
 
+<div class="container mw-lg pt-3 pt-xl-5 px-4">
+    <div class="row">
+        <div class="col-12 g-0 d-sm-none">
+            <img src="https://images.unsplash.com/photo-1552799446-159ba9523315?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" class="w-100 h-100 image-default rounded-4-top-left-top-right" alt="...">
+        </div>
+        <div class="col-12 col-sm-6 bg-dark rounded-4-bottom-left-bottom-right rounded-sm-4-top-left-bottom-left p-3">
+            <h2>This is a test</h2>
+        </div>
+        <div class="col-12 col-sm-6 g-0 d-none d-sm-block">
+            <img src="https://images.unsplash.com/photo-1552799446-159ba9523315?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" class="w-100 h-100 image-default rounded-sm-4-top-right-bottom-right" alt="...">
+        </div>
+    </div>
+
+    {{content}}
+
+    <p>This is normal text</p>
+
+    <p class="fs-1">This is FS-1</p>
+    <p class="fs-2">This is FS-2</p>
+    <p class="fs-3">This is FS-3</p>
+    <p class="fs-4">This is FS-4</p>
+    <p class="fs-5">This is FS-5</p>
+    <p class="fs-6">This is FS-6</p>
+</div>
+
+
 
 <div class="container mw-lg bg-dark">
     <div class="row">
@@ -178,18 +204,6 @@
 
 
 
-    <div class="container mw-lg bg-warning pt-6old">
-        {{content}}
-
-        <p>This is normal text</p>
-
-        <p class="fs-1">This is FS-1</p>
-        <p class="fs-2">This is FS-2</p>
-        <p class="fs-3">This is FS-3</p>
-        <p class="fs-4">This is FS-4</p>
-        <p class="fs-5">This is FS-5</p>
-        <p class="fs-6">This is FS-6</p>
-    </div>
 
     <div class="container p-5 mb-3 mw-lg rounded glass-card mg position-relative">
     <p>adasdas</p>

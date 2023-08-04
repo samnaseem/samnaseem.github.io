@@ -46,7 +46,7 @@ h1 { font-weight: bold; }
 
 .hero-followup { position: relative; top: -20em; }
 
-.hero-followup + * { margin-top: -17em; }
+.hero-followup + * { margin-top: -20em; }
 
 .hero-followup > div { font-size: 0.9em; }
 
