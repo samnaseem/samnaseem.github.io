@@ -206,27 +206,30 @@
 
 
 
-<div class="container mw-lg bg-dark mt-5 pt-5">
+
+<div class="container mw-lg pt-3 pt-lg-5 px-4 mb-3">
     <div class="row">
-        <div class="col-12 col-sm-6 bg-warnings">
-            asdasd
+        <div class="col-12 g-0 d-sm-none">
+            <img src="https://images.unsplash.com/photo-1511895426328-dc8714191300?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" class="w-100 h-100 image-default rounded-4-top-left-top-right" alt="...">
         </div>
-        <div class="col-12 col-sm-6 bg-dangers">
-            asdasd
+        <div class="col-12 col-sm-6 bg-dark rounded-4-bottom-left-bottom-right rounded-sm-4-top-left-bottom-left p-5 p-sm-5">
+            <h2 class="fs-4 fw-light">My Values</h2>
+            <h3 class="fs-5 fw-bold my-3">Guiding AI Empowerment with Purpose and Ethical Responsibility</h3>
+            <p class="fw-light">
+                The heart of my values – where ethical leadership meets AI empowerment. Sustainability remains at the core of my vision, ensuring AI innovations leave a positive, lasting impact where fairness and inclusivity drive my passion for AI solutions that benefit society and the environment.
+            </p>
+            <p>
+                <a class="btn btn-outline-light mt-2" href="#" role="button">Read more</a>
+            </p>
+        </div>
+        <div class="col-12 col-sm-6 g-0 d-none d-sm-block">
+            <img src="https://images.unsplash.com/photo-1511895426328-dc8714191300?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" class="w-100 h-100 image-default rounded-sm-4-top-right-bottom-right" alt="...">
         </div>
     </div>
-    
 </div>
 
 
-{{content}}
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 
-    <div class="container p-5 mb-3 mw-lg rounded glass-card mg position-relative">
-    <p>adasdas</p>
-    </div>
-    <div class="container p-5 mb-3 mw-lg rounded bg-dark mg position-relative">
-    <p>adasdas</p>
-    </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
   </body>
 </html>
