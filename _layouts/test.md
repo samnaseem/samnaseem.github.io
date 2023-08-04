@@ -75,7 +75,7 @@
 <div class="container mw-lg hero-followup">
     <div class="container mw-lg text-light p-4 pb-1 px-sm-5 rounded-4 bg-frost">
         <h2 class="fs-6 text-uppercase text-white-50">Current Effort Highlights <!--<a class="d-none d-sm-block float-end text-light text-decoration-none fw-lighter" href="#">View More</a>--></h2>
-        <div class="row row-cols-1 row-cols-lg-2">
+        <div class="row row-cols-1 row-cols-md-2">
             <div class="col my-2">
                 <div class="row">
                     <div class="col col-5 col-sm-4 d-flex">
