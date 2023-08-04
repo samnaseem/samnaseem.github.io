@@ -118,7 +118,7 @@ h1 {
     
 }
 
-div:has(.hero) + * {
+.hero-followup {
     position: relative;
     top: -20em;
 
