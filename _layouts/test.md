@@ -49,7 +49,7 @@
 
 
 
-  <div class="container-fluid bg-image-default g-0 fade-image" style="background-image:url({{page.splash}});">
+  <div class="container-fluid image-default g-0 fade-image" style="background-image:url({{page.splash}});">
     <div class="container mw-lg d-flex text-light hero g-3">
         <div class="container mw-lg mb-3 mb-sm-5 mt-auto fs-3 hero-content">
             <h1 data-highlight="My Mission"><a class="text-light text-decoration-none text-shadow" href="#">AI: Empowering Humanity, Forging Sustainable Futures</a></h1>
@@ -72,24 +72,24 @@
 
 
 
-<div class="container mw-lg hero-followup oldmt-n6 oldfs-6 oldp-4">
-    <div class="container mw-lg text-light p-4 px-sm-5 rounded-4 bg-frost splash-follower">
-        <h2 class="fs-6 text-uppercase text-white-50">What's trending now? <a class="d-none d-sm-block float-end text-light text-decoration-none fw-lighter" href="#">View More</a></h2>
-        <div class="row row-cols-1 row-cols-lg-2 row-cols-xl-3">
+<div class="container mw-lg hero-followup">
+    <div class="container mw-lg text-light p-4 pb-1 px-sm-5 rounded-4 bg-frost">
+        <h2 class="fs-6 text-uppercase text-white-50">Current Effort Highlights <!--<a class="d-none d-sm-block float-end text-light text-decoration-none fw-lighter" href="#">View More</a>--></h2>
+        <div class="row row-cols-1 row-cols-lg-2">
             <div class="col my-2">
                 <div class="row">
-                    <div class="col col-4 d-flex">
+                    <div class="col col-5 col-sm-4 d-flex">
                         <p>
                             <a href="#">
-                                <img src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" class="w-100 h-100 image-default rounded-4" alt="...">
+                                <img src="https://images.unsplash.com/photo-1531545514256-b1400bc00f31?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80" class="w-100 h-100 image-default rounded-4" alt="...">
                             </a>
                         </p>
                     </div>
-                    <div class="col col-8">
-                        <h3><a class="text-light" href="#">Blazor WASM C# JWT auth flow tutorial</a></h3>
+                    <div class="col col-7 col-sm-8">
+                        <h3><a class="text-light" href="#">AI Empowerment via Academia</a></h3>
                         <p>
                             <a class="text-light text-decoration-none" href="#">
-                                This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+                                Shaping tomorrow's innovators by equipping students for a future driven by AI
                             </a>
                         </p>
                     </div>
@@ -97,48 +97,85 @@
             </div>
             <div class="col my-2">
                 <div class="row">
-                    <div class="col col-4 d-flex">
+                    <div class="col col-5 col-sm-4 d-flex">
                         <p>
                             <a href="#">
-                                <img src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" class="w-100 h-100 image-default rounded-4" alt="...">
+                                <img src="https://images.unsplash.com/photo-1573496546038-82f9c39f6365?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2069&q=80" class="w-100 h-100 image-default rounded-4" alt="...">
                             </a>
                         </p>
                     </div>
-                    <div class="col col-8">
-                        <h3><a class="text-light" href="#">Blazor WASM C# JWT auth flow tutorial</a></h3>
+                    <div class="col col-7 col-sm-8">
+                        <h3><a class="text-light" href="#">Empowering Workforces with AI
+</a></h3>
                         <p>
                             <a class="text-light text-decoration-none" href="#">
-                                This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+                                Identifying AI opportunities and driving innovation in today's workforce
                             </a>
                         </p>
                     </div>
                 </div>                
-            </div>
-            <div class="col my-2 d-none d-xl-block d-xxl-block">
+            </div>  
+            <div class="col my-2">
                 <div class="row">
-                    <div class="col col-4 d-flex">
+                    <div class="col col-5 col-sm-4 d-flex">
                         <p>
                             <a href="#">
-                                <img src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" class="w-100 h-100 image-default rounded-4" alt="...">
+                                <img src="https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" class="w-100 h-100 image-default rounded-4" alt="...">
                             </a>
                         </p>
                     </div>
-                    <div class="col col-8">
-                        <h3><a class="text-light" href="#">Blazor WASM C# JWT auth flow tutorial</a></h3>
+                    <div class="col col-7 col-sm-8">
+                        <h3><a class="text-light" href="#">Communities Empowered by AI
+</a></h3>
                         <p>
                             <a class="text-light text-decoration-none" href="#">
-                                This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+                                Observing the field of AI to create opportunities and breakthrough solutions
                             </a>
                         </p>
                     </div>
                 </div>                
-            </div>
+            </div> 
+            <div class="col my-2">
+                <div class="row">
+                    <div class="col col-5 col-sm-4 d-flex">
+                        <p>
+                            <a href="#">
+                                <img src="https://images.unsplash.com/photo-1552799446-159ba9523315?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" class="w-100 h-100 image-default rounded-4" alt="...">
+                            </a>
+                        </p>
+                    </div>
+                    <div class="col col-7 col-sm-8">
+                        <h3><a class="text-light" href="#">Leveraging AI for UN's SDGs
+</a></h3>
+                        <p>
+                            <a class="text-light text-decoration-none" href="#">
+                                Addressing global challenges through AI research and help sustainable development
+                            </a>
+                        </p>
+                    </div>
+                </div>                
+            </div>            
         </div>       
-        <p class="d-sm-none d-block">
-            <a class="btn btn-outline-light w-100" href="#" role="button">Show more...</a>
-        </p> 
+        <!--<p class="d-sm-none d-block">
+            <a class="btn btn-outline-light w-100" href="#" role="button">View more</a>
+        </p>--> 
     </div>
 </div>
+
+
+
+<div class="container mw-lg bg-dark">
+    <div class="row">
+        <div class="col-12 col-sm-6 bg-warnings">
+            asdasd
+        </div>
+        <div class="col-12 col-sm-6 bg-dangers">
+            asdasd
+        </div>
+    </div>
+    
+</div>
+
 
 
     <div class="container mw-lg bg-warning pt-6old">

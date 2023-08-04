@@ -4,13 +4,13 @@ body { font-family: 'Lato'; }
 
 h1 { font-weight: bold; }
 
-.bg-image-default { background-size: cover; background-position: center; }
+.image-default { background-size: cover; background-position: center; object-fit: cover; object-position: center; }
 
 .bg-gd-black-transparent { background: linear-gradient(180deg, black, black, transparent); }
 
 .bg-gd-transparent-black { background: linear-gradient(180deg, transparent, black); }
 
-.bg-frost { backdrop-filter: blur(0.7rem); background: linear-gradient(0deg, #2121218f, #00000063, #0000002e); }
+.bg-frost { backdrop-filter: blur(0.7rem); -webkit-backdrop-filter: blur(0.7rem); background: linear-gradient(0deg, #ffffff30, #00000063, #0000002e); }
 
 .border-frost { border: 1px solid #4b4b4b59; }
 
@@ -44,8 +44,14 @@ h1 { font-weight: bold; }
 
 .hero .hero-content { margin-bottom: 10rem !important; }
 
-div:has(.hero) + * { position: relative; top: -20em; }
+.hero-followup { position: relative; top: -20em; }
 
-div:has(.hero) + * + * { margin-top: -17em; }
+.hero-followup + * { margin-top: -17em; }
+
+.hero-followup > div { font-size: 0.9em; }
+
+.hero-followup > div h2 { font-family: 'Montserrat'; font-weight: 700; font-size: 0.9em !important; }
+
+.hero-followup > div h3 { font-size: 1.2em; font-weight: bold; }
 
 /*# sourceMappingURL=style.css.map */
