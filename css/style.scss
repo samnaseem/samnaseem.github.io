@@ -28,6 +28,7 @@ h1 {
 
 .bg-frost {
     backdrop-filter: blur(0.7rem);
+    -webkit-backdrop-filter: blur(0.7rem);
     //background: linear-gradient(31deg, #212121,black, black, #00000063, #0000002e);
     background: linear-gradient(0deg, #2121218f, #00000063, #0000002e);
 }
