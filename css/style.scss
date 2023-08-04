@@ -1,106 +1,16 @@
 ---
 ---
+
 :root {
-    --bs-dark: #212529;
-    --bs-primary-rgb: 255,0,0;
-    font-size: 0.8rem;
+    --navbar-height: 5rem;
 }
 
-.navbar {
-    --bs-navbar-brand-font-size: 1.25em;
+body {
+    font-family: 'Lato';
 }
 
-.base-fs-s { font-size: 0.8em; }
-.base-fs-l { font-size: 1.2em; }
-
-
-@media only screen and (min-width: 0px) { //xs
-    .fs-s { font-size: 0.8em; }
-    .fs-l { font-size: 1.2em; }
-}
-
-@media only screen and (min-width: 576px) { //sm
-    .fs-sm-s { font-size: 0.8em; }
-    .fs-sm-l { font-size: 1.2em; }
-}
-
-@media only screen and (min-width: 768px) { //md
-    .fs-md-s { font-size: 0.8em; }
-    .fs-md-l { font-size: 1.2em; }
-}
-
-@media only screen and (min-width: 992px) { //lg
-    .fs-lg-s { font-size: 0.8em; }
-    .fs-lg-l { font-size: 1.2em; }
-}
-
-@media only screen and (min-width: 1200px) { //xl
-    .fs-xl-s { font-size: 0.8em; }
-    .fs-xl-l { font-size: 1.2em; }
-}
-
-@media only screen and (min-width: 1400px) { //xxl
-    .fs-xxl-s { font-size: 0.8em; }
-    .fs-xxl-l { font-size: 1.2em; }
-}
-
-
-
-
-
-
-
-.ft-brand {
-    //font-family: "Alegreya Sans SC";
-    //font-family: "Permanent Marker";
-    //font-family: "Mansalva";
-    //font-family: "Fira Sans Condensed";
-    font-family: "Titillium Web";
-}
-
-.ft-default {
-    font-family: "Montserrat";
-}
-
-.fw-h1 {
-    font-weight: 900;
-}
-
-.fw-h2 {
-    font-weight: 700;
-}
-
-.fw-h3 {
-    font-weight: 700;
-}
-
-.fs-h1 {
-    font-size: 1.7em;
-}
-
-.fs-h2 {
-    font-size: 1.5em;
-}
-
-.fs-h3 {
-    font-size: 1.2em;
-}
-
-.cp-d {
-    padding-bottom: 1em;
-}
-
-.mt-n3 {
-    //margin-top: -3.5rem;
-    margin-top: -5em;
-}
-
-.mt-n6 {
-    margin-top: -12em;
-}
-
-.bg-overlay-gradient-bottom-dark {
-    background: linear-gradient(to bottom, transparent, var(--bs-dark));
+h1 {
+    font-weight: bold;
 }
 
 .bg-image-default {
@@ -108,68 +18,22 @@
     background-position: center;
 }
 
+.bg-gd-black-transparent {
+    background: linear-gradient(180deg, black, black, transparent);
+}
+
+.bg-gd-transparent-black {
+    background: linear-gradient(180deg, transparent, black);
+}
+
 .bg-frost {
     backdrop-filter: blur(0.7rem);
-    background: linear-gradient(45deg, black, #00000063, #0000002e);
+    //background: linear-gradient(31deg, #212121,black, black, #00000063, #0000002e);
+    background: linear-gradient(0deg, #2121218f, #00000063, #0000002e);
 }
 
-.shadow-deep {
-    box-shadow: 0 0 10px var(--bs-dark);
-}
-
-.image-default {
-    object-fit: cover;
-}
-
-.aspect-ratio-4-3 {
-    aspect-ratio: 4/3;
-}
-
-.aspect-ratio-3-4 {
-    aspect-ratio: 3/4;
-}
-
-.aspect-ratio-1-1 {
-    aspect-ratio: 1/1;
-}
-
-.aspect-ratio-1-2 {
-    aspect-ratio: 1/2;
-}
-
-.aspect-ratio-2-1 {
-    aspect-ratio: 2/1;
-}
-
-
-.hero-3 {
-    min-height: 60em; //45em;
-    object-fit: cover;
-}
-
-.hero-content-3 {
-    margin-bottom: 16rem!important;
-}
-
-.splash-follower {
-    top: -14rem;
-    position: relative;
-    margin-bottom: -14rem;
-}
-
-h1 {
-    @extend .fs-h1;
-    @extend .fw-h1;
-}
-
-h2 {
-    @extend .fs-h2;
-    @extend .fw-h2;
-}
-
-h3 {
-    @extend .fs-h3;
-    @extend .fw-h3;
+.border-frost {
+    border: 1px solid #4b4b4b59;
 }
 
 [data-highlight]::before{
@@ -181,42 +45,85 @@ h3 {
     padding-bottom: 0.5em;
 }
 
-body {
-    @extend .ft-default;
-    //font-size: 1rem;
+.text-shadow {
+    text-shadow: 1px 1px 3px black;
 }
 
-.navbar-brand {
-    @extend .ft-brand;
-    //letter-spacing: 0.1em;
-    //text-shadow: 0 0 1em black;
-    font-size: 1.5rem;
-    //font-style: italic;
-    font-weight: 600;
-    font-family: "Titillium Web";
+.navbar {
+    min-height: var(--navbar-height);
+    display: flex;
+    align-items: start;
 
-    span {
-        margin-left: 12px;
+    .profile-pic {
+        width: 36px;
+        margin-right: 10px;
+    }
+
+    .profile-name {
         vertical-align: middle;
+        font-family: 'Titillium Web';
+        font-weight: 600;
+    }
+
+    .nav-link,
+    .navbar-brand {
+        color: white;
+        transition: all .2s;
+    }
+
+    :has(div.show) {
+        background-color: black!important;
+        transition: all .2s;
+    }
+
+    :has(div.show) .nav-link,
+    :has(div.show) .navbar-brand {
+        color: white;
+        transition: all .2s;
+    }
+
+    .collapsing {
+        -webkit-transition: none;
+        transition: none;
+        display: none;
     }
 }
 
-.navbar-brand::after{
-    //content: "\00AE";
-    //vertical-align: 17%;
-    //font-size: 0.8em;
-    //margin-left: 0.2em;
-    font-weight: normal;
-    font-size: 1.4rem;
-    top: -0.4rem;
-    position: relative;
+.fixed-top-p + * {
+    padding-top: calc(var(--navbar-height))!important;
 }
 
-.content {
-    //font-size: 1rem;
+.fixed-top-m + * {
+    margin-top: calc(var(--navbar-height))!important;
+}
 
-    p, ul, ol {
-        @extend .cp-d;
+.hero {
+    min-height: 40em; //45em;
+    object-fit: cover;
+    font-family: 'Montserrat';
+
+    h1 {
+        font-weight: 900;
+        font-size: 1.0em;
+    }
+
+    h2 {
+        font-size: 0.8em;
+    }
+
+    .hero-content {
+        margin-bottom: 10rem!important;
+    } 
+    
+    
+}
+
+div:has(.hero) + * {
+    position: relative;
+    top: -20em;
+
+    + * {
+        margin-top: -17em;
     }
 }
 

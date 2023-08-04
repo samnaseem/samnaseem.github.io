@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "style-breakpoints.css",
+	"sources": [
+		"style-breakpoints.scss"
+	],
+	"sourcesContent": [
+		".mw-sm {max-width: var(--bs-breakpoint-sm)!important;}\n.mw-md {max-width: var(--bs-breakpoint-md)!important;}\n.mw-lg {max-width: var(--bs-breakpoint-lg)!important;}\n.mw-xl {max-width: var(--bs-breakpoint-xl)!important;}\n.mw-xxl {max-width: var(--bs-breakpoint-xxl)!important;}\n\n.mg {\n    width: calc(100% - var(--bs-gutter-x));\n}"
+	],
+	"names": [],
+	"mappings": "AAAA,AAAA,MAAM,CAAC,EAAC,SAAS,EAAE,uBAAuB,CAAA,UAAU,GAAG;;AACvD,AAAA,MAAM,CAAC,EAAC,SAAS,EAAE,uBAAuB,CAAA,UAAU,GAAG;;AACvD,AAAA,MAAM,CAAC,EAAC,SAAS,EAAE,uBAAuB,CAAA,UAAU,GAAG;;AACvD,AAAA,MAAM,CAAC,EAAC,SAAS,EAAE,uBAAuB,CAAA,UAAU,GAAG;;AACvD,AAAA,OAAO,CAAC,EAAC,SAAS,EAAE,wBAAwB,CAAA,UAAU,GAAG;;AAEzD,AAAA,GAAG,CAAC,EACA,KAAK,EAAE,+BAA+B,GACzC"
+}

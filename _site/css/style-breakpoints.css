@@ -1,0 +1,13 @@
+.mw-sm { max-width: var(--bs-breakpoint-sm) !important; }
+
+.mw-md { max-width: var(--bs-breakpoint-md) !important; }
+
+.mw-lg { max-width: var(--bs-breakpoint-lg) !important; }
+
+.mw-xl { max-width: var(--bs-breakpoint-xl) !important; }
+
+.mw-xxl { max-width: var(--bs-breakpoint-xxl) !important; }
+
+.mg { width: calc(100% - var(--bs-gutter-x)); }
+
+/*# sourceMappingURL=style-breakpoints.css.map */

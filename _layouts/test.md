@@ -1,3 +1,5 @@
+---
+---
 <!doctype html>
 <html lang="en">
   <head>
@@ -47,7 +49,7 @@
 
 
 
-  <div class="container-fluid bg-image-default g-0 fade-image" style="background-image:url(https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1064&q=80);">
+  <div class="container-fluid bg-image-default g-0 fade-image" style="background-image:url({{page.splash}});">
     <div class="container mw-lg d-flex text-light hero g-3">
         <div class="container mw-lg mb-3 mb-sm-5 mt-auto fs-3 hero-content">
             <h1 data-highlight="My Mission"><a class="text-light text-decoration-none text-shadow" href="#">AI: Empowering Humanity, Forging Sustainable Futures</a></h1>
@@ -140,28 +142,7 @@
 
 
     <div class="container mw-lg bg-warning pt-6old">
-        <h1 id="this-is-heading-1">This is heading 1</h1>
-
-<h2 id="this-is-heading-2">This is heading 2</h2>
-
-<h3 id="this-is-heading-3">This is heading 3</h3>
-
-<h4 id="this-is-heading-4">This is heading 4</h4>
-
-<h5 id="this-is-heading-5">This is heading 5</h5>
-
-<h6 id="this-is-heading-6">This is heading 6</h6>
-
-<p>This is normal text</p>
-
-<h1 id="tim-cook">Tim Cook</h1>
-
-<h2 id="chief-executive-officer">Chief Executive Officer</h2>
-
-<p>Tim Cook is the CEO of Apple and serves on its board of directors.</p>
-
-<p>Before being named CEO in August 2011, Tim was Apple’s chief operating officer and was responsible for all of the company’s worldwide sales and operations, including end-to-end management of Apple’s supply chain, sales activities, and service and support in all markets and countries. He also headed Apple’s Macintosh division and played a key role in the continued development of strategic reseller and supplier relationships, ensuring flexibility in response to an increasingly demanding marketplace.</p>
-
+        {{content}}
 
         <p>This is normal text</p>
 
