@@ -207,7 +207,7 @@
 
 
 
-<div class="container mw-lg pt-3 pt-lg-5 px-4 mb-3">
+<div class="container mw-lg pt-3 pt-lg-5 px-4 mb-3 mb-lg-5">
     <div class="row">
         <div class="col-12 g-0 d-sm-none">
             <img src="https://images.unsplash.com/photo-1511895426328-dc8714191300?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" class="w-100 h-100 image-default rounded-4-top-left-top-right" alt="...">
