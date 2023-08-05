@@ -1,5 +1,7 @@
 ---
 layout: default
+page-title: >
+    My Vision: A future where AI empowers individuals and transforms lives
 nav-type: right
 nav-title: 'Vision'
 nav-sort: 2
@@ -21,4 +23,7 @@ highlight-image:
 highlight-heading: 
 highlight-subheading: 
 highlight-sort: 0
+sitemap: left
+sitemap-heading: My Vision
+sitemap-sort: 3
 ---

@@ -1,5 +1,7 @@
 ---
 layout: default
+page-title: >
+    My Current Efforts
 nav-type: right
 nav-title: 'Current Efforts'
 nav-sort: 4
@@ -21,4 +23,7 @@ highlight-image:
 highlight-heading: 
 highlight-subheading: 
 highlight-sort: 0
+sitemap: right
+sitemap-heading: Current Efforts
+sitemap-sort: 2
 ---

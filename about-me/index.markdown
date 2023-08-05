@@ -1,5 +1,7 @@
 ---
 layout: default
+page-title: >
+    About Me
 nav-type: right
 nav-title: 'About'
 nav-sort: 5
@@ -20,4 +22,7 @@ highlight-image:
 highlight-heading: 
 highlight-subheading: 
 highlight-sort: 0
+sitemap: right
+sitemap-heading: About Me
+sitemap-sort: 2
 ---

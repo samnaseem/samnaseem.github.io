@@ -1,5 +1,7 @@
 ---
 layout: default
+page-title: >
+    My Values: Guiding AI Empowerment with Purpose and Ethical Responsibility
 nav-type: right
 nav-title: 'Values'
 nav-sort: 3
@@ -21,4 +23,7 @@ highlight-image:
 highlight-heading: 
 highlight-subheading: 
 highlight-sort: 0
+sitemap: left
+sitemap-heading: My Values
+sitemap-sort: 3
 ---

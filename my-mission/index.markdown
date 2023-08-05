@@ -1,5 +1,7 @@
 ---
 layout: default
+page-title: >
+    My Mission: Empowering Minds with AI for Positive Global Transformation
 nav-type: right
 nav-title: 'Mission'
 nav-sort: 1
@@ -22,4 +24,7 @@ highlight-image:
 highlight-heading: 
 highlight-subheading: 
 highlight-sort: 0
+sitemap: left
+sitemap-heading: My Mission
+sitemap-sort: 2
 ---

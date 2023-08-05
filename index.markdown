@@ -3,7 +3,11 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
-splash: "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1064&q=80"
+page-title: >
+    AI: Empowering Humanity, Forging Sustainable Futures
+sitemap: left
+sitemap-heading: Home
+sitemap-sort: 1
 
 ---
 # This is heading 1
