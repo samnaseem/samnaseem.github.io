@@ -2,6 +2,7 @@
 layout: default
 page-title: >
     My Mission: Empowering Minds with AI for Positive Global Transformation
+page-image: https://images.unsplash.com/photo-1490730141103-6cac27aaab94?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80
 nav-type: right
 nav-title: 'Mission'
 nav-sort: 1
@@ -27,4 +28,14 @@ highlight-sort: 0
 sitemap: left
 sitemap-heading: My Mission
 sitemap-sort: 2
+breadcrumbs: true
+breadcrumbs-title: My Mission
+breadcrumbs-hidelast: false
 ---
+
+# My Mission
+
+## Empowering Minds with AI for Positive Global Transformation
+
+
+Discover my mission to empower minds with the transformative potential of Artificial Intelligence (AI) for positive global change. Explore how AI can revolutionize education, demystify its complexities, and create AI-empowered innovators who shape a better tomorrow.
