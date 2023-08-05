@@ -91,6 +91,16 @@ h1 {
         transition: none;
         display: none;
     }
+
+    //@media only screen and (min-width: 576px) {
+        .nav-link {
+            font-size: 0.7em!important;
+            font-weight: normal!important;
+            opacity: 90%;
+            letter-spacing: 0.4em;
+            margin-left: 0.5em;
+        }
+    //}
 }
 
 .fixed-top-p + * {

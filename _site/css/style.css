@@ -32,6 +32,8 @@ h1 { font-weight: bold; }
 
 .navbar .collapsing { -webkit-transition: none; transition: none; display: none; }
 
+.navbar .nav-link { font-size: 0.7em !important; font-weight: normal !important; opacity: 90%; letter-spacing: 0.4em; margin-left: 0.5em; }
+
 .fixed-top-p + * { padding-top: calc(var(--navbar-height)) !important; }
 
 .fixed-top-m + * { margin-top: calc(var(--navbar-height)) !important; }
