@@ -1,0 +1,156 @@
+:root {
+  --navbar-height: 5rem;
+}
+
+body {
+  font-family: "Lato";
+}
+
+h1 {
+  font-weight: bold;
+}
+
+.image-default {
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
+  object-position: center;
+}
+
+.bg-gd-black-transparent {
+  background: linear-gradient(180deg, black, black, transparent);
+}
+
+.bg-gd-transparent-black {
+  background: linear-gradient(180deg, transparent, black);
+}
+
+.bg-frost {
+  backdrop-filter: blur(0.7rem);
+  -webkit-backdrop-filter: blur(0.7rem);
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.1882352941), rgba(0, 0, 0, 0.3882352941), rgba(0, 0, 0, 0.1803921569));
+}
+
+.border-frost {
+  border: 1px solid rgba(75, 75, 75, 0.3490196078);
+}
+
+[data-highlight]::before {
+  content: attr(data-highlight);
+  display: block;
+  text-transform: uppercase;
+  font-size: 0.5em;
+  opacity: 0.5;
+  padding-bottom: 0.5em;
+}
+
+.text-shadow {
+  text-shadow: 1px 1px 3px black;
+}
+
+.navbar {
+  min-height: var(--navbar-height);
+  display: flex;
+  align-items: start;
+}
+.navbar .profile-pic {
+  width: 36px;
+  margin-right: 10px;
+}
+.navbar .profile-name {
+  vertical-align: middle;
+  font-family: "Titillium Web";
+  font-weight: 600;
+}
+.navbar .nav-link,
+.navbar .navbar-brand {
+  color: white;
+  transition: all 0.2s;
+}
+.navbar :has(div.show) {
+  background-color: black !important;
+  transition: all 0.2s;
+}
+.navbar :has(div.show) .nav-link,
+.navbar :has(div.show) .navbar-brand {
+  color: white;
+  transition: all 0.2s;
+}
+.navbar .collapsing {
+  -webkit-transition: none;
+  transition: none;
+  display: none;
+}
+.navbar .nav-link {
+  font-size: 0.7em !important;
+  font-weight: normal !important;
+  opacity: 90%;
+  letter-spacing: 0.4em;
+  margin-left: 0.5em;
+}
+
+.fixed-top-p + * {
+  padding-top: calc(var(--navbar-height)) !important;
+}
+
+.fixed-top-m + * {
+  margin-top: calc(var(--navbar-height)) !important;
+}
+
+.hero {
+  min-height: 40em;
+  object-fit: cover;
+  font-family: "Montserrat";
+}
+.hero h1 {
+  font-weight: 900;
+  font-size: 1em;
+}
+.hero h2 {
+  font-size: 0.8em;
+}
+.hero .hero-content {
+  margin-bottom: 10rem !important;
+}
+
+.hero-followup {
+  position: relative;
+  top: -20em;
+}
+.hero-followup + * {
+  margin-top: -20em;
+}
+.hero-followup > div {
+  font-size: 0.9em;
+}
+.hero-followup > div h2 {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 0.9em !important;
+}
+.hero-followup > div h3 {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.footer {
+  font-size: 0.8em !important;
+  font-weight: normal !important;
+  opacity: 60%;
+  letter-spacing: 0.2em;
+}
+
+.fa {
+  color: #333;
+  text-decoration: none;
+  padding: 0.3em;
+  background-color: gray;
+  border-radius: 1em;
+  width: 1.5em;
+  text-align: center;
+}
+.fa :hover {
+  background-color: white;
+}
+
+/*# sourceMappingURL=style.css.map */
