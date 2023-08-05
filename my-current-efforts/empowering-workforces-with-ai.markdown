@@ -21,5 +21,10 @@ highlight-image: 'https://images.unsplash.com/photo-1573496546038-82f9c39f6365?i
 highlight-heading: 'Empowering Workforces with AI'
 highlight-subheading: >
     Identifying AI opportunities and driving innovation in today's workforce
+highlight-description: >
+    As part of my mission to empower minds with AI, I am dedicated to bridging the gap between AI advancements and existing workforces. This initiative focuses on empowering professionals with the latest AI tools and knowledge, enabling them to streamline workflows, boost productivity, and drive innovation in their respective industries.
 highlight-sort: 2
+breadcrumbs: true
+breadcrumbs-title: 
+breadcrumbs-hidelast: true
 ---

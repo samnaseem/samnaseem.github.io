@@ -29,7 +29,7 @@ sitemap-heading: My Values
 sitemap-sort: 3
 breadcrumbs: true
 breadcrumbs-title: My Values
-breadcrumbs-hidelast: false
+breadcrumbs-hidelast: true
 ---
 
 # My Values

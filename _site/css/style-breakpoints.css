@@ -47,7 +47,7 @@
     columns: auto;
     columns: 2;
   }
-  .columns h1, .columns h2 {
+  .columns h1, .columns h2, .columns .row, .columns hr {
     column-span: all;
   }
   .columns h1, .columns h2, .columns h3 {

@@ -21,5 +21,10 @@ highlight-image: 'https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?i
 highlight-heading: 'Communities Empowered by AI'
 highlight-subheading: >
     Observing the field of AI to create opportunities and breakthrough solutions
+highlight-description: >
+    I closely monitor advancements in the field of AI and machine learning, identifying emerging technologies with transformative potential. By keeping a pulse on the latest AI breakthroughs, I explore how these innovations can be harnessed to create meaningful impact in communities.
 highlight-sort: 3
+breadcrumbs: true
+breadcrumbs-title: 
+breadcrumbs-hidelast: true
 ---

@@ -29,7 +29,7 @@ sitemap-heading: My Vision
 sitemap-sort: 3
 breadcrumbs: true
 breadcrumbs-title: My Vision
-breadcrumbs-hidelast: false
+breadcrumbs-hidelast: true
 ---
 
 # My Vision

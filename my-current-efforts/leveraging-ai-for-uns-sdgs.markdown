@@ -22,5 +22,10 @@ highlight-heading: >
     Leveraging AI for UN's SDGs
 highlight-subheading: >
     Addressing global challenges through AI research and help sustainable development
+highlight-description: >
+    In alignment with the UN's 17 Sustainable Development Goals (SDGs), I am deeply committed to utilizing the potential of AI to address global challenges and contribute to sustainable development. From reducing poverty and improving healthcare to promoting environmental conservation and fostering inclusive education, AI offers diverse avenues for sustainable development.
 highlight-sort: 4
+breadcrumbs: true
+breadcrumbs-title: 
+breadcrumbs-hidelast: true
 ---

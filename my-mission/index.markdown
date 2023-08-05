@@ -30,7 +30,7 @@ sitemap-heading: My Mission
 sitemap-sort: 2
 breadcrumbs: true
 breadcrumbs-title: My Mission
-breadcrumbs-hidelast: false
+breadcrumbs-hidelast: true
 ---
 
 # My Mission

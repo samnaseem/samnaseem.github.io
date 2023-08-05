@@ -21,5 +21,10 @@ highlight-image: 'https://images.unsplash.com/photo-1531545514256-b1400bc00f31?i
 highlight-heading: 'AI Empowerment via Academia'
 highlight-subheading: >
     Shaping tomorrow's innovators by equipping students for a future driven by AI
+highlight-description: >
+    To support academic institutes in their AI education initiatives, I am curating a collection of AI learning resources, including tutorials, learning platforms, and open-source AI tools. These resources empower both educators and students in their AI journey.
 highlight-sort: 1
+breadcrumbs: true
+breadcrumbs-title: 
+breadcrumbs-hidelast: true
 ---
