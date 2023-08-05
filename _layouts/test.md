@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>Sam Naseem | AI: Empowering Humanity, Forging Sustainable Futures</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link href="/css/style.css?v=1" rel="stylesheet">
     <link href="/css/style-breakpoints.css?v=1" rel="stylesheet">
@@ -73,7 +73,7 @@
 
 
 <div class="container mw-lg hero-followup">
-    <div class="container mw-lg text-light p-4 pb-1 px-sm-5 rounded-4 bg-frost">
+    <div class="container mw-lg text-light p-4 py-sm-5 pb-1 pb-sm-5 px-sm-5 rounded-4 bg-frost">
         <h2 class="fs-6 text-uppercase text-white-50">Current Effort Highlights <!--<a class="d-none d-sm-block float-end text-light text-decoration-none fw-lighter" href="#">View More</a>--></h2>
         <div class="row row-cols-1 row-cols-md-2">
             <div class="col my-2">
@@ -169,7 +169,7 @@
             <img src="https://images.unsplash.com/photo-1490730141103-6cac27aaab94?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" class="w-100 h-100 image-default rounded-4-top-left-top-right" alt="...">
         </div>
         <div class="col-12 col-sm-6 bg-dark rounded-4-bottom-left-bottom-right rounded-sm-4-top-left-bottom-left p-5 p-sm-5">
-            <h2 class="fs-4 fw-light">My Mission</h2>
+            <h2 class="my-3 fs-4 fw-light">My Mission</h2>
             <h3 class="fs-5 fw-bold my-3">Empowering Minds with AI for Positive Global Transformation</h3>
             <p class="fw-light">
                 Discover my mission to empower minds with the transformative potential of Artificial Intelligence (AI) for positive global change. Explore how AI can revolutionize education, demystify its complexities, and create AI-empowered innovators who shape a better tomorrow.
@@ -192,7 +192,7 @@
             <img src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2513&q=80" class="w-100 h-100 image-default rounded-4-top-left-top-right rounded-sm-4-top-left-bottom-left" alt="...">
         </div>
         <div class="col-12 col-sm-6 bg-dark rounded-4-bottom-left-bottom-right rounded-sm-4-top-right-bottom-right p-5 p-sm-5">
-            <h2 class="fs-4 fw-light">My Vision</h2>
+            <h2 class="my-3 fs-4 fw-light">My Vision</h2>
             <h3 class="fs-5 fw-bold my-3">A future where AI empowers individuals and transforms lives</h3>
             <p class="fw-light">
                 By fostering a culture of innovation, collaboration, and ethical AI use, my vision is to equip the world with AI tools that drive sustainable development and create a positive impact on a global scale and unlock the full potential to address humanity's most pressing challenges. 
@@ -213,7 +213,7 @@
             <img src="https://images.unsplash.com/photo-1511895426328-dc8714191300?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" class="w-100 h-100 image-default rounded-4-top-left-top-right" alt="...">
         </div>
         <div class="col-12 col-sm-6 bg-dark rounded-4-bottom-left-bottom-right rounded-sm-4-top-left-bottom-left p-5 p-sm-5">
-            <h2 class="fs-4 fw-light">My Values</h2>
+            <h2 class="my-3 fs-4 fw-light">My Values</h2>
             <h3 class="fs-5 fw-bold my-3">Guiding AI Empowerment with Purpose and Ethical Responsibility</h3>
             <p class="fw-light">
                 The heart of my values – where ethical leadership meets AI empowerment. Sustainability remains at the core of my vision, ensuring AI innovations leave a positive, lasting impact where fairness and inclusivity drive my passion for AI solutions that benefit society and the environment.

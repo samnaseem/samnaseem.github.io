@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "style-breakpoints.css",
+	"sources": [
+		"style-breakpoints.scss"
+	],
+	"sourcesContent": [
+		".mw-sm {max-width: var(--bs-breakpoint-sm)!important;}\n.mw-md {max-width: var(--bs-breakpoint-md)!important;}\n.mw-lg {max-width: var(--bs-breakpoint-lg)!important;}\n.mw-xl {max-width: var(--bs-breakpoint-xl)!important;}\n.mw-xxl {max-width: var(--bs-breakpoint-xxl)!important;}\n\n.mg {\n    width: calc(100% - var(--bs-gutter-x));\n}\n\n@media only screen and (max-width: 575px) {\n    .rounded-4-top-left-top-right {       \n        border-top-left-radius: var(--bs-border-radius-xl)!important;\n        border-top-right-radius: var(--bs-border-radius-xl)!important;\n    }\n    \n    .rounded-4-bottom-left-bottom-right {       \n        border-bottom-left-radius: var(--bs-border-radius-xl)!important;\n        border-bottom-right-radius: var(--bs-border-radius-xl)!important;\n    }\n}\n\n@media only screen and (min-width: 576px) {\n    .rounded-sm-4-top-right-bottom-right {       \n        border-top-right-radius: var(--bs-border-radius-xl)!important;\n        border-bottom-right-radius: var(--bs-border-radius-xl)!important;\n    }\n\n    .rounded-sm-4-top-left-bottom-left {       \n        border-top-left-radius: var(--bs-border-radius-xl)!important;\n        border-bottom-left-radius: var(--bs-border-radius-xl)!important;\n    }\n}\n"
+	],
+	"names": [],
+	"mappings": "AAAA,AAAA,MAAM,CAAC,EAAC,SAAS,EAAE,uBAAuB,CAAA,UAAU,GAAG;;AACvD,AAAA,MAAM,CAAC,EAAC,SAAS,EAAE,uBAAuB,CAAA,UAAU,GAAG;;AACvD,AAAA,MAAM,CAAC,EAAC,SAAS,EAAE,uBAAuB,CAAA,UAAU,GAAG;;AACvD,AAAA,MAAM,CAAC,EAAC,SAAS,EAAE,uBAAuB,CAAA,UAAU,GAAG;;AACvD,AAAA,OAAO,CAAC,EAAC,SAAS,EAAE,wBAAwB,CAAA,UAAU,GAAG;;AAEzD,AAAA,GAAG,CAAC,EACA,KAAK,EAAE,+BAA+B,GACzC;;AAED,MAAM,mCACF,GAAA,AAAA,6BAA6B,CAAC,EAC1B,sBAAsB,EAAE,0BAA0B,CAAA,UAAU,EAC5D,uBAAuB,EAAE,0BAA0B,CAAA,UAAU,GAChE,CAED,AAAA,mCAAmC,CAAC,EAChC,yBAAyB,EAAE,0BAA0B,CAAA,UAAU,EAC/D,0BAA0B,EAAE,0BAA0B,CAAA,UAAU,GACnE,EALA;;AAQL,MAAM,mCACF,GAAA,AAAA,oCAAoC,CAAC,EACjC,uBAAuB,EAAE,0BAA0B,CAAA,UAAU,EAC7D,0BAA0B,EAAE,0BAA0B,CAAA,UAAU,GACnE,CAED,AAAA,kCAAkC,CAAC,EAC/B,sBAAsB,EAAE,0BAA0B,CAAA,UAAU,EAC5D,yBAAyB,EAAE,0BAA0B,CAAA,UAAU,GAClE,EALA"
+}
