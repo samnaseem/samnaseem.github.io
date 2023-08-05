@@ -1,8 +1,8 @@
-<div class="row mt-5">
+<div class="row">
     {% for sibling in site.pages | sort: "card-sort" %}
     {% if sibling.url contains page.url %}
       {% unless sibling.url == page.url %}
-        <div class="col-12 col-sm-6 mb-sm-5">
+        <div class="col-12 col-sm-6 my-3 smb-sm-5">
             <p><a href="{{sibling.url}}" ><img class="image-default" src="{{sibling.highlight-image}}" width="100%" height="200px"/></a></p>
             <h3><a href="{{sibling.url}}" class="text-decoration-none text-light fw-bold">{{sibling.highlight-heading}}</a></h3>
             <h4><a href="{{sibling.url}}" class="text-decoration-none text-light">{{sibling.highlight-subheading}}</a></h4>
