@@ -41,7 +41,7 @@
         columns: 2;
         //margin-top: 1.5em;
 
-        h1, h2, .row, hr {
+        h1, h2 {
             column-span: all;
         }
 
@@ -50,6 +50,10 @@
             break-after: avoid;
         }
     }
+}
+
+.row, hr {
+    column-span: all;
 }
 
 .page-image {

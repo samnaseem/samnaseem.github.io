@@ -47,7 +47,7 @@
     columns: auto;
     columns: 2;
   }
-  .columns h1, .columns h2, .columns .row, .columns hr {
+  .columns h1, .columns h2 {
     column-span: all;
   }
   .columns h1, .columns h2, .columns h3 {
@@ -55,6 +55,10 @@
     break-after: avoid;
   }
 }
+.row, hr {
+  column-span: all;
+}
+
 @media only screen and (max-width: 575px) {
   .page-image {
     height: 200px !important;
