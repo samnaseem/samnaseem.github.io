@@ -1,0 +1,52 @@
+{% assign search = site.pages | where_exp: "item", "item.card == true" | sort: "item.card-sort" %}
+{% for p in search %}
+{% assign remainder = forloop.index | modulo: 2 %}
+{% if remainder == 1 %}
+
+<div class="container mw-lg pt-3 pt-lg-5 px-4">
+  <div class="row">
+    <div class="col-12 g-0 d-sm-none">
+      <img src="{{p.card-image}}" class="w-100 h-100 image-default rounded-4-top-left-top-right" alt="...">
+    </div>
+    <div
+      class="col-12 col-sm-6 bg-dark rounded-4-bottom-left-bottom-right rounded-sm-4-top-left-bottom-left p-5 p-sm-5">
+      <h2 class="my-3 fs-4 fw-light">{{p.card-heading}}</h2>
+      <h3 class="fs-5 fw-bold my-3">{{p.card-subheading}}</h3>
+      <p class="fw-light">
+        {{p.card-description}}
+      </p>
+      <p>
+        <a class="btn btn-outline-light mt-2" href="{{p.url}}" role="button">{{p.card-button}}</a>
+      </p>
+    </div>
+    <div class="col-12 col-sm-6 g-0 d-none d-sm-block">
+      <img src="{{p.card-image}}" class="w-100 h-100 image-default rounded-sm-4-top-right-bottom-right" alt="...">
+    </div>
+  </div>
+</div>
+
+{% else %}
+
+<div class="container mw-lg pt-3 pt-lg-5 px-4">
+  <div class="row">
+    <div class="col-12 col-sm-6 g-0">
+      <img
+        src="{{p.card-image}}"
+        class="w-100 h-100 image-default rounded-4-top-left-top-right rounded-sm-4-top-left-bottom-left" alt="...">
+    </div>
+    <div
+      class="col-12 col-sm-6 bg-dark rounded-4-bottom-left-bottom-right rounded-sm-4-top-right-bottom-right p-5 p-sm-5">
+      <h2 class="my-3 fs-4 fw-light">{{p.card-heading}}</h2>
+      <h3 class="fs-5 fw-bold my-3">{{p.card-subheading}}</h3>
+      <p class="fw-light">
+        {{p.card-description}}
+      </p>
+      <p>
+        <a class="btn btn-outline-light mt-2" href="{{p.url}}" role="button">{{p.card-button}}</a>
+      </p>
+    </div>
+  </div>
+</div>
+
+{% endif %}
+{% endfor %}

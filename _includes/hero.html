@@ -1,0 +1,22 @@
+{% assign search = site.pages | where_exp: "item", "item.hero == true" | limit: 1 %}
+{% for p in search %}
+  {% assign style = 'style="background-image:url(' | append: p.hero-image | append: ');"' %}
+  <div class="container-fluid image-default g-0 fade-image" {{style}}>
+    <div class="container mw-lg d-flex text-light hero g-3">
+      <div class="container mw-lg mb-3 mb-sm-5 mt-auto fs-3 hero-content">
+        <h1 data-highlight="{{p.hero-leader}}"><a class="text-light text-decoration-none text-shadow" href="{{p.url}}">{{p.hero-heading}}</a></h1>
+        <h2>
+          <a class="text-light text-decoration-none text-shadow" href="{{p.url}}">
+            {{p.hero-subheading}}
+          </a>
+        </h2>
+        <p>
+          <a class="btn btn-outline-light mt-2" href="{{p.url}}" role="button">{{p.hero-button}}</a>
+        </p>
+      </div>
+    </div>
+    <div class="container-fluid bg-gd-transparent-black g-0 p-5">
+      <p class="m-0 p-5"></p>
+    </div>
+  </div>
+{% endfor %}
