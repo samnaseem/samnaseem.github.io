@@ -7,4 +7,3 @@ layout: root
 {% include highlights.html %}
 
 {% include cards.html %}
-
