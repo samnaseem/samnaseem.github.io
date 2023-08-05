@@ -1,4 +1,4 @@
-{% assign search = site.pages | where_exp: "item", "item.hero == true" %}
+{% assign search = site.pages | where: "hero", true %}
 {% for p in search %}
   {% assign style = 'style="background-image:url(' | append: p.hero-image | append: ');"' %}
   <div class="container-fluid image-default g-0 fade-image" {{style}}>

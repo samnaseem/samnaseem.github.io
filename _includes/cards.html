@@ -1,4 +1,4 @@
-{% assign search = site.pages | where_exp: "item", "item.card == true" | sort: "item.card-sort" %}
+{% assign search = site.pages | where: "card", true | sort: "card-sort" %}
 {% for p in search %}
 {% assign remainder = forloop.index | modulo: 2 %}
 {% if remainder == 1 %}
