@@ -156,10 +156,20 @@ h1 {
 .breadcrumb .breadcrumb-item, .breadcrumb a,
 .breadcrumb .breadcrumb-item::before {
   color: white;
+  text-transform: uppercase;
+  font-size: 0.9em;
 }
 
 .liquid-content sh1 {
   font-size: 1rem;
+}
+
+.row, hr {
+  column-span: all;
+}
+
+.column-span-all {
+  column-span: all;
 }
 
 /*# sourceMappingURL=style.css.map */

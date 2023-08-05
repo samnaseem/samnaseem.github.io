@@ -37,7 +37,7 @@ breadcrumbs-hidelast: true
 ## Empowering AI Initiatives for Positive Change
 
 Welcome to the realm of my active endeavors and personal projects dedicated to empowering minds with AI for positive transformation. Here, I present a collection of initiatives and projects that embody the principles of responsible AI use, sustainability, and inclusivity. Each effort is designed to make a tangible impact on the journey towards a future where AI becomes a driving force for the achievement of sustainable development goals.
-
+{: .column-span-all }
 ----
 
 {% include siblings.html %}

@@ -55,10 +55,6 @@
     break-after: avoid;
   }
 }
-.row, hr {
-  column-span: all;
-}
-
 @media only screen and (max-width: 575px) {
   .page-image {
     height: 200px !important;
