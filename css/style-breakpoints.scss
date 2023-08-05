@@ -35,7 +35,25 @@
     }
 }
 
+@media only screen and (min-width: 768px) {
+    .columns {
+        columns: auto;
+        columns: 2;
+        //margin-top: 1.5em;
+
+        h1, h2 {
+            column-span: all;
+        }
+
+        h1, h2, h3 {
+            margin-bottom: 1rem;
+            break-after: avoid;
+        }
+    }
+}
+
 .page-image {
     @media only screen and (max-width: 575px){ height: 200px!important; }
     @media only screen and (min-width: 576px){ height: 300px!important; }
 }
+
