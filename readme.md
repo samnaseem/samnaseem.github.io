@@ -1,5 +1,3 @@
----
----
 # Sam Naseem
 
 ## Copyright & Intellectual Property Rights
