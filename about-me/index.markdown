@@ -29,11 +29,14 @@ sitemap-sort: 2
 breadcrumbs: true
 breadcrumbs-title: About Me
 breadcrumbs-hidelast: true
+pills: ["AI/ML", "Leadership & Management", "B2B Strategies", "Marketing & Sales", "Business & Product Development", "Full-stack Development", "AWS", "Azure", "CI/CD", "Flutter", "Dart", "Kotlin", "Jetpack Compose", "SwiftUI", ".Net MAUI", "Blazor WebAssembly", "C#/VB.Net", "Python", "GoLang", "Rust", "PHP", "XHTML", "CSS"]
 ---
 
 # About Me
 
 ## Hello, I'm Sam, and I'm thrilled to welcome you to my world of AI empowerment and sustainable development.
+
+{% include pills.html pills = page.pills %}
 
 From an early fascination with technology to a passionate drive for positive change, my journey has led me to embrace the transformative potential of Artificial Intelligence (AI). In this section, I'm excited to share my experiences, expertise, and mission to empower minds with AI for a brighter future.
 
