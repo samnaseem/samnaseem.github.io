@@ -44,7 +44,7 @@ From an early fascination with technology to a passionate drive for positive cha
 
 My journey in the world of AI began with a curiosity that has grown into a deep-seated passion. Throughout my academic and professional endeavors, I immersed myself in AI research, data science, and machine learning. This journey opened my eyes to the immense possibilities AI offers in solving complex challenges across various domains.
 
-#### 1996-1999
+#### 1996 - 1999
 
 ##### Foundations in the Dawn of the Digital Age
 
@@ -126,7 +126,7 @@ As businesses and individuals became more reliant on the internet, the systems b
 
 ----
 
-#### 2002
+#### 2002 - 2004
 
 ##### From Code to Leadership
 
@@ -154,7 +154,7 @@ The years 2002 to 2004 were transformative. The tech industry was recovering and
 
 ----
 
-#### 2004
+#### 2004 - 2007
 
 ##### From Code to Command
 
@@ -219,7 +219,7 @@ The tail end of the 2000s witnessed the ascendance of the "cloud", and the bloss
 
 ----
 
-#### 2009
+#### 2009 - 2011
 
 ##### Technical Leadership and the Web's Next Evolution
 
@@ -260,7 +260,7 @@ With the ubiquity of smartphones and tablets, the lines between desktop and mobi
 {: .special}
 
 ----
-#### 2012
+#### 2012 - 2014
 
 ##### Bridging the Physical & Digital, Innovating Local
 
@@ -329,7 +329,7 @@ The span of 2015-2016 showcased a keen focus on fine-tuning business processes t
 
 ----
 
-#### 2016
+#### 2016 - 2019
 
 ##### Harnessing Automation for Efficient Commerce
 
@@ -447,7 +447,7 @@ The span of 2022-2023 mirrored the tech industry's focus on embedding intelligen
 
 ----
 
-#### 2023-Present
+#### 2023 - Present
 
 ##### Scanning Horizons and Leading from the Forefront
 
