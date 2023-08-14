@@ -41,8 +41,6 @@ From an early fascination with technology to a passionate drive for positive cha
 
 My journey in the world of AI began with a curiosity that has grown into a deep-seated passion. Throughout my academic and professional endeavors, I immersed myself in AI research, data science, and machine learning. This journey opened my eyes to the immense possibilities AI offers in solving complex challenges across various domains.
 
-----
-
 #### 1996-1999
 
 ##### Foundations in the Dawn of the Digital Age
