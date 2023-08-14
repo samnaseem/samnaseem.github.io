@@ -29,7 +29,7 @@ sitemap-sort: 2
 breadcrumbs: true
 breadcrumbs-title: About Me
 breadcrumbs-hidelast: true
-pills: ["AI/ML", "Leadership & Management", "B2B Strategies", "Marketing & Sales", "Business & Product Development", "Full-stack Development", "AWS", "Azure", "CI/CD", "C#/VB.Net", "Python", "GoLang", "Rust", "PHP", "XHTML", "CSS", "C/C++", "Arduino", "MongoDB", "MSSQL", "MySQL", "Flutter", "Dart", "Kotlin", "Jetpack Compose", "SwiftUI", ".Net MAUI", "Blazor WebAssembly"]
+pills: ["AI/ML", "Leadership & Management", "B2B Strategies", "Marketing & Sales", "Business & Product Development", "Full-stack Development", "AWS", "Azure", "CI/CD", "C#/VB.Net", "Python", "GoLang", "PHP", "XHTML", "CSS", "C/C++", "Arduino", "MongoDB", "MSSQL", "MySQL", "Rust", "Flutter", "Dart", "SwiftUI", "Jetpack Compose", "Kotlin", ".Net MAUI", "Blazor WebAssembly"]
 ---
 
 # About Me
