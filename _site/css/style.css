@@ -10,6 +10,10 @@ h1 {
   font-weight: bold;
 }
 
+h3 {
+  margin-top: 0.1em;
+}
+
 .image-default {
   background-size: cover;
   background-position: center;
@@ -165,12 +169,38 @@ h1 {
   font-size: 1rem;
 }
 
-.row, hr {
+.row {
   column-span: all;
+}
+
+hr {
+  break-before: avoid;
 }
 
 .column-span-all {
   column-span: all;
+}
+
+.break-inside-avoid {
+  break-inside: avoid;
+}
+
+.break-after-avoid {
+  break-after: avoid;
+}
+
+ul.special li {
+  color: darkgray;
+}
+ul.special li strong {
+  color: white;
+}
+
+p.special {
+  color: darkgray;
+}
+p.special strong {
+  color: white;
 }
 
 /*# sourceMappingURL=style.css.map */

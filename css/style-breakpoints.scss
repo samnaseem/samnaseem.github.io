@@ -53,9 +53,13 @@
             column-span: all;
         }
 
-        h1, h2, h3 {
+        h1, h2, h3, h4, h5 {
             margin-bottom: 1rem;
             break-after: avoid;
+        }
+
+        ul {
+            break-inside: avoid;
         }
     }
 }

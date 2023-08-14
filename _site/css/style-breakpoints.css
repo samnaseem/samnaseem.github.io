@@ -31,6 +31,9 @@
     border-bottom-left-radius: var(--bs-border-radius-xl) !important;
     border-bottom-right-radius: var(--bs-border-radius-xl) !important;
   }
+  .box-shadow-top {
+    box-shadow: 0px -1px 1px rgba(255, 255, 255, 0.4784313725);
+  }
 }
 @media only screen and (min-width: 576px) {
   .rounded-sm-4-top-right-bottom-right {
@@ -41,6 +44,9 @@
     border-top-left-radius: var(--bs-border-radius-xl) !important;
     border-bottom-left-radius: var(--bs-border-radius-xl) !important;
   }
+  .box-shadow-sm-top {
+    box-shadow: 0px -1px 1px rgba(255, 255, 255, 0.4784313725);
+  }
 }
 @media only screen and (min-width: 768px) {
   .columns {
@@ -50,9 +56,12 @@
   .columns h1, .columns h2 {
     column-span: all;
   }
-  .columns h1, .columns h2, .columns h3 {
+  .columns h1, .columns h2, .columns h3, .columns h4, .columns h5 {
     margin-bottom: 1rem;
     break-after: avoid;
+  }
+  .columns ul {
+    break-inside: avoid;
   }
 }
 @media only screen and (max-width: 575px) {

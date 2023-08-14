@@ -198,10 +198,47 @@ h3 {
     }
 }
 
-.row, hr {
+//.row, hr {
+.row {
     column-span: all;
+}
+
+hr {
+    break-before: avoid;
+}
+
+ul {
+    li {
+        //font-weight: lighter;
+    }
 }
 
 .column-span-all {
     column-span: all;
+}
+
+.break-inside-avoid {
+    break-inside: avoid;
+}
+
+.break-after-avoid {
+    break-after: avoid;
+}
+
+ul.special {
+    li {
+        color: darkgray;
+
+        strong {
+            color: white;
+        }
+    }
+}
+
+p.special {
+    color: darkgray;
+
+    strong {
+        color: white;
+    }
 }
