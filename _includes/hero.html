@@ -1,6 +1,6 @@
 {% assign search = site.pages | where: "hero", true %}
 {% for p in search %}
-  {% assign style = 'style="background-image:url(' | append: p.hero-image | append: ');"' %}
+  {% assign style = 'style="background-image:url(' | append: p.hero-image | append: '); background-attachment: fixed;"' %}
   <div class="container-fluid image-default g-0 fade-image" {{style}}>
     <div class="container mw-lg d-flex text-light hero g-3">
       <div class="container mw-lg mb-3 mb-sm-5 mt-auto fs-3 hero-content">
