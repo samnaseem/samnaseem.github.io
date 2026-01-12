@@ -2,7 +2,7 @@
 layout: default
 page-title: >
     How I Work
-page-image: 'https://images.unsplash.com/photo-1490730141103-6cac27aaab94?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80'
+page-image: 'https://images.unsplash.com/photo-1452696193712-6cabf5103b63?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
 nav-type: right
 nav-title: 'How I Work'
 nav-sort: 1
@@ -13,7 +13,7 @@ hero-heading: ''
 hero-subheading: ''
 hero-button: ''
 card: true
-card-image: 'https://images.unsplash.com/photo-1727189899371-abd5873c4709?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
+card-image: 'https://images.unsplash.com/photo-1452696193712-6cabf5103b63?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
 card-heading: 'How I Work'
 card-subheading: 'An architectural approach to clarity and responsibility'
 card-description: >
