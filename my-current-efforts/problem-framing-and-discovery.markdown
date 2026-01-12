@@ -32,36 +32,65 @@ breadcrumbs-title:
 breadcrumbs-hidelast: true
 ---
 
-# AI Empowerment via Academia
+# Problem Framing & Discovery
 
-## Shaping tomorrow's innovators by equipping students for a future driven by AI
+## Clarifying intent before committing to solutions
 
-As part of my mission to empower minds with AI, I am actively engaging with academic institutes to advocate for the integration of revolutionary AI and ML discoveries into their educational programs. Recognizing the transformative potential of AI in shaping the future workforce, I passionately believe that preparing students with cutting-edge AI skills is vital for their success in tomorrow's competitive world.
+Most technology initiatives struggle not because they are difficult to build, but because the underlying problem was never clearly framed. By the time delivery begins, assumptions have already hardened, scope has narrowed prematurely, and important trade-offs have been made implicitly rather than deliberately.
 
-### Engaging with Academic Institutes
+This page describes how I approach problem framing and discovery — not as a phase to rush through, but as the work that determines whether everything that follows will remain coherent over time.
 
-I am working closely with academic institutes, educators, and policymakers to promote the inclusion of AI and ML topics in their curricula. Through workshops, seminars, and collaboration with educational institutions, I aim to raise awareness about the significance of AI education and its real-world applications.
+### Why problem framing matters
 
-### Showcasing AI's Real-World Impact
+When a problem is framed too late, teams inherit constraints they did not choose. Delivery becomes reactive, architecture becomes defensive, and systems accumulate complexity that feels unavoidable but is often self-inflicted.
 
-To inspire academic institutes to adopt AI education, I emphasize AI's real-world impact on various industries. By showcasing success stories and case studies of AI-driven innovations, I demonstrate how students can gain a competitive advantage in the commercial workplace through AI expertise.
+Effective framing creates space to:
+- distinguish symptoms from root causes
+- surface hidden assumptions early
+- understand who bears the cost of getting it wrong
+- identify decisions that will be difficult to unwind later
 
-### Developing AI Curricula
+This work is quiet, but its absence is usually felt months or years down the line.
 
-In collaboration with educators, I am actively involved in developing AI curricula that align with industry trends and advancements. This includes identifying essential AI concepts, introducing hands-on AI projects, and integrating cutting-edge AI tools and frameworks.
+### What discovery is — and what it is not
 
-### Creating AI Learning Resources
+Discovery is not a requirements gathering exercise, and it is not a design sprint aimed at producing solutions quickly.
 
-To support academic institutes in their AI education initiatives, I am curating a collection of AI learning resources, including tutorials, learning platforms, and open-source AI tools. These resources empower both educators and students in their AI journey.
+Instead, discovery focuses on:
+- understanding the problem space before narrowing it
+- mapping constraints, incentives, and risks
+- identifying where clarity already exists — and where it doesn’t
+- determining what must remain stable as everything else changes
 
-### Promoting Diversity and Inclusivity
+The outcome is not a specification, but a shared understanding of intent.
 
-In advocating for AI education, I also emphasize the importance of promoting diversity and inclusivity in the AI field. I encourage academic institutes to foster an inclusive learning environment, ensuring that students from all backgrounds have access to AI education.
+### Working with ambiguity
 
-### Collaborating with Industry Partners
+In complex environments, ambiguity is unavoidable. The goal is not to eliminate it prematurely, but to work with it deliberately.
 
-To strengthen the link between academia and the industry, I am forging partnerships with companies that value AI expertise in their workforce. Through these collaborations, students can gain valuable industry exposure and apply their AI knowledge to real-world challenges.
+During discovery, I help stakeholders:
+- slow down decision-making at the right moments
+- resist the pull of familiar solutions
+- make trade-offs explicit rather than accidental
+- agree on what *not* to solve yet
 
-### Join the Movement
+This often feels counter-intuitive in delivery-driven cultures, but it is where the most leverage usually sits.
 
-AI is the driving force of the future, and it starts with preparing our students today. I invite educators, students, and academic leaders to join this movement, champion AI education, and equip the next generation with the skills they need to thrive in a world shaped by AI.
+### Typical outputs of discovery
+
+While discovery is primarily about understanding, it does produce concrete artefacts that support later work. These may include:
+- problem statements and boundaries
+- architectural options and implications
+- risk surfaces and decision points
+- areas requiring further validation
+- signals that indicate when it is safe to proceed
+
+These outputs are deliberately lightweight. Their purpose is clarity, not completeness.
+
+### How this fits into broader engagements
+
+Problem framing and discovery often precede longer engagements, but they can also stand alone.
+
+In some cases, the result of discovery is a clear path forward. In others, it reveals that a proposed initiative should be reshaped, delayed, or stopped altogether.
+
+In all cases, the aim is the same: to ensure that subsequent delivery effort is spent in service of the right problem, rather than compensating for early uncertainty.
