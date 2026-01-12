@@ -21,7 +21,7 @@ card-button:
 card-sort: 0
 highlight: true
 highlight-image: 'https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80'
-highlight-heading: '3. Independent Technical Authority'
+highlight-heading: 'Independent Technical Authority'
 highlight-subheading: >
     Providing judgement where risk and uncertainty are high
 highlight-description: >
