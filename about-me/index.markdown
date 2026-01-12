@@ -37,7 +37,7 @@ pills: ["AI/ML", "Leadership & Management", "B2B Strategies", "Marketing & Sales
 
 # About Sam
 
-## Independent architectural judgement for complex, long-lived systems
+## Independent architectural judgement
 
 I work as an independent solutions architect, supporting organisations where complexity, longevity, and risk intersect.
 
