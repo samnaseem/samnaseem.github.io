@@ -1,7 +1,7 @@
 ---
 layout: default
 page-title: >
-    AI Empowerment via Academia
+    Problem Framing & Discovery
 page-image: 'https://images.unsplash.com/photo-1531545514256-b1400bc00f31?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80'
 nav-type: 
 nav-title: 
@@ -21,9 +21,9 @@ card-button:
 card-sort: 0
 highlight: true
 highlight-image: 'https://images.unsplash.com/photo-1531545514256-b1400bc00f31?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80'
-highlight-heading: 'AI Empowerment via Academia'
+highlight-heading: 'Problem Framing & Discovery'
 highlight-subheading: >
-    Shaping tomorrow's innovators by equipping students for a future driven by AI
+    Helping organisations define real problems before committing to solutions.
 highlight-description: >
     To support academic institutes in their AI education initiatives, I am curating a collection of AI learning resources, including tutorials, learning platforms, and open-source AI tools. These resources empower both educators and students in their AI journey.
 highlight-sort: 1
