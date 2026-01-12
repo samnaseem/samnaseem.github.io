@@ -4,7 +4,7 @@
 
 layout: home
 page-title: >
-    AI: Empowering Humanity, Forging Sustainable Futures
+    Sam Naseem | Independent Solutions Architect & Architectural Authority
 sitemap: left
 sitemap-heading: Home
 sitemap-sort: 1
