@@ -24,7 +24,7 @@ highlight-image:
 highlight-heading: 
 highlight-subheading: 
 highlight-sort: 0
-sitemap: left
+sitemap: right
 sitemap-heading: Principles & Boundaries
 sitemap-sort: 3
 breadcrumbs: true
