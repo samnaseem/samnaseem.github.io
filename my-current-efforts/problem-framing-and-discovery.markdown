@@ -38,7 +38,7 @@ breadcrumbs-hidelast: true
 
 Most technology initiatives struggle not because they are difficult to build, but because the underlying problem was never clearly framed. By the time delivery begins, assumptions have already hardened, scope has narrowed prematurely, and important trade-offs have been made implicitly rather than deliberately.
 
-This page describes how I approach problem framing and discovery — not as a phase to rush through, but as the work that determines whether everything that follows will remain coherent over time.
+This page describes how I approach problem framing and discovery, not as a phase to rush through, but as the work that determines whether everything that follows will remain coherent over time.
 
 ### Why problem framing matters
 
@@ -52,14 +52,14 @@ Effective framing creates space to:
 
 This work is quiet, but its absence is usually felt months or years down the line.
 
-### What discovery is — and what it is not
+### What discovery is and what it is not
 
 Discovery is not a requirements gathering exercise, and it is not a design sprint aimed at producing solutions quickly.
 
 Instead, discovery focuses on:
 - understanding the problem space before narrowing it
 - mapping constraints, incentives, and risks
-- identifying where clarity already exists — and where it doesn’t
+- identifying where clarity already exists and where it does not
 - determining what must remain stable as everything else changes
 
 The outcome is not a specification, but a shared understanding of intent.
@@ -72,7 +72,7 @@ During discovery, I help stakeholders:
 - slow down decision-making at the right moments
 - resist the pull of familiar solutions
 - make trade-offs explicit rather than accidental
-- agree on what *not* to solve yet
+- agree on what not to solve yet
 
 This often feels counter-intuitive in delivery-driven cultures, but it is where the most leverage usually sits.
 
@@ -93,4 +93,5 @@ Problem framing and discovery often precede longer engagements, but they can als
 
 In some cases, the result of discovery is a clear path forward. In others, it reveals that a proposed initiative should be reshaped, delayed, or stopped altogether.
 
-In all cases, the aim is the same: to ensure that subsequent delivery effort is spent in service of the right problem, rather than compensating for early uncertainty.
+In all cases, the aim is the same. To ensure that subsequent delivery effort is spent in service of the right problem, rather than compensating for early uncertainty.
+
