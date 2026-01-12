@@ -36,9 +36,7 @@ breadcrumbs-hidelast: true
 
 ## Explorations in architecture, systems, and decision-making
 
-This section brings together a set of ideas and perspectives drawn from real-world work across complex technical environments. Rather than presenting projects or initiatives, it outlines areas of thinking that shape how problems are framed, decisions are made, and systems evolve over time.
-
-Each area reflects a different aspect of architectural judgement, from early discovery through long-term stewardship, independent authority, and future-ready design. Together, they form a coherent view of how complex systems can be approached responsibly and deliberately.
+This section brings together a set of ideas and perspectives drawn from real-world work across complex technical environments. Rather than presenting projects or initiatives, it outlines areas of thinking that shape how problems are framed, decisions are made, and systems evolve over time, from early discovery through architectural stewardship, independent technical authority, and future-ready design.
 {: .column-span-all }
 ----
 {: .column-span-all }
