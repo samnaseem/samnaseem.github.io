@@ -35,7 +35,7 @@ breadcrumbs-hidelast: true
 
 # How I Work
 
-## An architectural approach to clarity, responsibility, and long-term outcomes
+## An architectural approach to clarity and long-term responsibility
 
 Much of the value in complex technical work is created before anything is built. Decisions made early, often implicitly, shape how systems behave, evolve, and constrain future choices.
 
@@ -69,7 +69,9 @@ This allows delivery teams to move faster without constantly renegotiating direc
 
 Progress is often measured in visible output, but output alone does not guarantee meaningful progress.
 
-I prioritise responsibility for:
+I prioritise responsibility for decision quality, system coherence, long-term consequences, and risk visibility.
+
+This includes:
 - decision quality
 - system coherence
 - long-term consequences
@@ -110,5 +112,3 @@ When this way of working is effective:
 - delivery effort is spent in service of the right outcomes
 
 The aim is not perfection, but coherence that holds under change.
-
-
