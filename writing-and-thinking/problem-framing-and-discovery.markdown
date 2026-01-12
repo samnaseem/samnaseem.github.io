@@ -2,7 +2,7 @@
 layout: default
 page-title: >
     Problem Framing & Discovery
-page-image: 'https://images.unsplash.com/photo-1663045579290-4785a5c424fe?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
+page-image: 'https://images.unsplash.com/photo-1753813698731-fc9593d27b54?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
 nav-type: 
 nav-title: 
 nav-sort: 0
@@ -20,7 +20,7 @@ card-description:
 card-button: 
 card-sort: 0
 highlight: true
-highlight-image: 'https://images.unsplash.com/photo-1663045579290-4785a5c424fe?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
+highlight-image: 'https://images.unsplash.com/photo-1753813698731-fc9593d27b54?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
 highlight-heading: 'Problem Framing & Discovery'
 highlight-subheading: >
     Clarifying intent before committing to solutions
