@@ -1,5 +1,5 @@
 <div class="row">
-    {% for sibling in site.pages | sort: "card-sort" %}
+    {% for sibling in site.pages | sort: "highlight-sort" %}
     {% if sibling.url contains page.url %}
       {% unless sibling.url == page.url %}
         <div class="col-12 col-sm-6 my-3 smb-sm-5">
