@@ -2,7 +2,7 @@
 layout: default
 page-title: >
     Independent Technical Authority
-page-image: 'https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80'
+page-image: 'https://images.unsplash.com/photo-1695809584603-56be5f79a8e2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
 nav-type: 
 nav-title: 
 nav-sort: 0
@@ -20,7 +20,7 @@ card-description:
 card-button: 
 card-sort: 0
 highlight: true
-highlight-image: 'https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80'
+highlight-image: 'https://images.unsplash.com/photo-1695809584603-56be5f79a8e2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
 highlight-heading: 'Independent Technical Authority'
 highlight-subheading: >
     Providing judgement where risk and uncertainty are high
