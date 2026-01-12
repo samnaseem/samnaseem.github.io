@@ -37,45 +37,33 @@ pills: ["AI/ML", "Leadership & Management", "B2B Strategies", "Marketing & Sales
 
 # About Sam
 
-## Independent architectural judgement shaped by long-lived systems
+## Independent architectural judgement for complex, long-lived systems
 
 I work as an independent solutions architect, supporting organisations where complexity, longevity, and risk intersect.
 
-My work focuses on problem framing, architectural strategy, and technical decision-making in environments where systems span multiple teams, departments, and external partners. I am typically engaged where clarity is required before significant commitment is made, or where long-running platforms need coherence as they continue to evolve.
+I am typically engaged when problems feel urgent but poorly defined, when architectural decisions carry significant long-term risk, or when systems are evolving faster than shared understanding. In these situations, clarity before commitment is often more valuable than additional delivery effort.
 
-I do not operate as delivery capacity or an embedded internal role. Instead, I provide architectural judgement, continuity of intent, and an independent perspective across organisational boundaries.
+My work focuses on problem framing, architectural strategy, and technical decision-making in environments where systems span multiple teams, departments, and external partners.
 
 ### Background and experience
 
 I have spent many years working across complex technical environments, including regulated industries and business-critical platforms.
 
-This experience includes:
-- shaping and stewarding long-lived systems
-- working across multiple departments with competing priorities
-- engaging directly with senior technical and non-technical leaders
-- supporting delivery teams without displacing ownership or responsibility
+This experience includes shaping and stewarding long-lived systems, working across multiple departments with competing priorities, engaging directly with senior technical and non-technical leaders, and supporting delivery teams without displacing ownership or responsibility.
 
 The common thread across this work has been responsibility for decisions that remain difficult to unwind long after delivery begins.
 
 ### How I typically engage
 
-I am usually brought in when:
-- a problem feels urgent but poorly defined
-- architectural decisions carry significant long-term risk
-- systems are evolving faster than shared understanding
-- organisations require independent technical judgement
+I am usually brought in when architectural judgement is required above the level of day-to-day delivery.
 
-Engagements vary in duration and form, ranging from focused discovery to longer-running architectural stewardship, depending on context and need.
+This may involve clarifying intent before work begins, maintaining coherence as systems evolve, or providing independent technical authority at key decision points. Engagements vary in duration and form, depending on context and need.
 
 ### Independence and working model
 
 Maintaining independence is central to how I work.
 
-I operate through my own company and remain separate from internal organisational structures. This allows me to:
-- provide objective assessment and challenge
-- avoid conflicts between delivery incentives and judgement
-- engage across teams, vendors, and leadership levels
-- remain focused on system-level outcomes rather than local optimisation
+I operate through my own company and remain separate from internal organisational structures. This allows me to provide objective assessment and challenge, avoid conflicts between delivery incentives and judgement, engage across teams, vendors, and leadership levels, and remain focused on system-level outcomes.
 
 Clear boundaries ensure that responsibility for execution remains with the organisation, while architectural clarity and intent are supported externally.
 
