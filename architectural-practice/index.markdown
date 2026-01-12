@@ -1,10 +1,10 @@
 ---
 layout: default
 page-title: >
-    Writing & Thinking
+    Architectural Practice
 page-image: 'https://images.unsplash.com/photo-1461709444300-a6217cec3dff?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2073&q=80'
 nav-type: right
-nav-title: 'Writing & Thinking'
+nav-title: 'Architectural Practice'
 nav-sort: 4
 hero: false
 hero-image: 
@@ -25,14 +25,14 @@ highlight-heading:
 highlight-subheading: 
 highlight-sort: 0
 sitemap: right
-sitemap-heading: Writing & Thinking
+sitemap-heading: Architectural Practice
 sitemap-sort: 2
 breadcrumbs: true
-breadcrumbs-title: Writing & Thinking
+breadcrumbs-title: Architectural Practice
 breadcrumbs-hidelast: true
 ---
 
-# Writing & Thinking
+# Architectural Practice
 
 ## Explorations in architecture, systems, and decision-making
 
