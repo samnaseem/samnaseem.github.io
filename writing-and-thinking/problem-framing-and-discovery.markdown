@@ -23,9 +23,9 @@ highlight: true
 highlight-image: 'https://images.unsplash.com/photo-1531545514256-b1400bc00f31?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80'
 highlight-heading: 'Problem Framing & Discovery'
 highlight-subheading: >
-    Helping organisations define real problems before committing to solutions.
+    Clarifying intent before committing to solutions
 highlight-description: >
-    To support academic institutes in their AI education initiatives, I am curating a collection of AI learning resources, including tutorials, learning platforms, and open-source AI tools. These resources empower both educators and students in their AI journey.
+    An exploration of how problems are framed before delivery begins. This page explains why early assumptions matter, how clarity creates leverage, and how better framing reduces long-term risk in complex technical environments.
 highlight-sort: 1
 breadcrumbs: true
 breadcrumbs-title: 

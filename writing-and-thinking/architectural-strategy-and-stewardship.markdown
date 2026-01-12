@@ -23,9 +23,9 @@ highlight: true
 highlight-image: 'https://images.unsplash.com/photo-1573496546038-82f9c39f6365?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2069&q=80'
 highlight-heading: 'Architectural Strategy & Stewardship'
 highlight-subheading: >
-    Guiding long-term coherence across programmes, platforms, and teams.
+    Maintaining coherence as systems evolve
 highlight-description: >
-    As part of my mission to empower minds with AI, I am dedicated to bridging the gap between AI advancements and existing workforces. This initiative focuses on empowering professionals with the latest AI tools and knowledge, enabling them to streamline workflows, boost productivity, and drive innovation in their respective industries.
+    An overview of how architectural direction is established and maintained over time. This page explores how coherence is protected as systems evolve across teams, departments, and delivery phases.
 highlight-sort: 2
 breadcrumbs: true
 breadcrumbs-title: 

@@ -24,9 +24,9 @@ highlight-image: 'https://images.unsplash.com/photo-1749006590475-4592a5dbf99f?i
 highlight-heading: >
     Future-Ready System Design
 highlight-subheading: >
-    Considering AI/ML impacts where appropriate without hype.
+    Designing systems that adapt as conditions change
 highlight-description: >
-    In alignment with the UN's 17 Sustainable Development Goals (SDGs), I am deeply committed to utilizing the potential of AI to address global challenges and contribute to sustainable development. From reducing poverty and improving healthcare to promoting environmental conservation and fostering inclusive education, AI offers diverse avenues for sustainable development.
+    An exploration of how systems can be designed to remain viable as priorities, constraints, and capabilities evolve. This page focuses on preserving clarity, boundaries, and optionality without premature optimisation or destabilising change.
 highlight-sort: 4
 breadcrumbs: true
 breadcrumbs-title: 
