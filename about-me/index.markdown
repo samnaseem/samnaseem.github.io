@@ -8,7 +8,7 @@ nav-title: 'About Me'
 nav-sort: 5
 hero: true
 hero-image: 'https://images.unsplash.com/photo-1662237693450-b1512f9b456a?q=80&w=2832&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
-hero-leader: 'Architectural Approach'
+hero-leader: 'IDENTITY'
 hero-heading: 'Independent Solutions Architect & System Author'
 hero-subheading: 'Clarity, Architecture & Long-Term System Coherence for Complex Organisations'
 hero-paragraph-1: 'This site is home for Sam Naseem - an independent solutions architect focused on problem framing, architectural authorship, and system stewardship across organisational boundaries.'
