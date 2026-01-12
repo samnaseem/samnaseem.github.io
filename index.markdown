@@ -4,7 +4,7 @@
 
 layout: home
 page-title: >
-    Sam Naseem | Independent Solutions Architect & Architectural Authority
+    Sam Naseem | Independent Solutions Architect & System Author
 sitemap: left
 sitemap-heading: Home
 sitemap-sort: 1
