@@ -2,7 +2,7 @@
 layout: default
 page-title: >
     Principles & Boundaries
-page-image: 'https://images.unsplash.com/photo-1511895426328-dc8714191300?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80'
+page-image: 'https://images.unsplash.com/photo-1642115902617-2d48f6fcb7d5?q=80&w=1978&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
 nav-type: right
 nav-title: 'Principles & Boundaries'
 nav-sort: 3
@@ -12,7 +12,7 @@ hero-heading:
 hero-subheading: 
 hero-button: 
 card: true
-card-image: 'https://images.unsplash.com/photo-1511895426328-dc8714191300?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80'
+card-image: 'https://images.unsplash.com/photo-1642115902617-2d48f6fcb7d5?q=80&w=1978&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
 card-heading: 'Principles & Boundaries'
 card-subheading: 'How judgement is guided and independence protected'
 card-description: >
