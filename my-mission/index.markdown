@@ -35,21 +35,17 @@ breadcrumbs-hidelast: true
 
 # How I Work
 
-## An architectural approach to clarity and long-term responsibility
+## An architectural approach to clarity and responsibility
 
 Much of the value in complex technical work is created before anything is built. Decisions made early, often implicitly, shape how systems behave, evolve, and constrain future choices.
 
-This page outlines how I approach work, not as a sequence of tasks or services, but as an architectural discipline focused on clarity, responsibility, and coherence over time.
+I focus on decision quality, system coherence, long-term consequences, and the visibility of risk, recognising that these factors determine whether delivery effort compounds value or quietly creates cost.
 
 ### Starting with intent, not solutions
 
 I begin by understanding what problem is actually being addressed, who is affected by it, and which constraints matter most.
 
-This means:
-- slowing down solution selection until intent is clear
-- distinguishing symptoms from underlying causes
-- surfacing assumptions before they harden into constraints
-- identifying decisions that will be difficult to reverse later
+This involves slowing down solution selection until intent is clear, distinguishing symptoms from underlying causes, surfacing assumptions before they harden into constraints, and identifying decisions that will be difficult to reverse later.
 
 Clarity at this stage creates leverage that no amount of delivery effort can compensate for later.
 
@@ -57,11 +53,7 @@ Clarity at this stage creates leverage that no amount of delivery effort can com
 
 My role sits above day-to-day implementation, but remains grounded in delivery reality.
 
-I do not operate as additional capacity. Instead, I focus on:
-- shaping architectural direction
-- clarifying responsibilities and boundaries
-- supporting teams by reducing ambiguity
-- ensuring delivery effort aligns with long-term intent
+I do not operate as additional capacity. Instead, I focus on shaping architectural direction, clarifying responsibilities and boundaries, supporting teams by reducing ambiguity, and ensuring delivery effort aligns with long-term intent.
 
 This allows delivery teams to move faster without constantly renegotiating direction.
 
@@ -69,25 +61,15 @@ This allows delivery teams to move faster without constantly renegotiating direc
 
 Progress is often measured in visible output, but output alone does not guarantee meaningful progress.
 
-I prioritise responsibility for decision quality, system coherence, long-term consequences, and risk visibility.
+I prioritise responsibility for how decisions are made, how systems remain coherent over time, how consequences are understood before they materialise, and how risk is surfaced early rather than absorbed silently.
 
-This includes:
-- decision quality
-- system coherence
-- long-term consequences
-- risk visibility
-
-This sometimes means doing less, not more, in the short term to avoid avoidable cost later.
+This sometimes means doing less in the short term to avoid avoidable cost later.
 
 ### Independence as a working principle
 
 Maintaining independence is essential to how I work.
 
-I do not embed as an internal role, take on line management, or assume delivery ownership. This separation allows me to:
-- provide objective judgement
-- challenge assumptions safely
-- operate across organisational boundaries
-- remain focused on the system as a whole
+I do not embed as an internal role, take on line management, or assume delivery ownership. This separation allows me to provide objective judgement, challenge assumptions safely, operate across organisational boundaries, and remain focused on the system as a whole.
 
 Clear boundaries protect both the work and the people involved.
 
@@ -95,20 +77,12 @@ Clear boundaries protect both the work and the people involved.
 
 There is no single correct way to apply this approach.
 
-Each engagement differs based on:
-- organisational maturity
-- regulatory and operational constraints
-- existing systems and dependencies
-- stakeholder alignment and incentives
+Each engagement differs based on organisational maturity, regulatory and operational constraints, existing systems and dependencies, and stakeholder alignment.
 
 The approach remains consistent, but how it is applied adapts to context.
 
 ### What this approach enables
 
-When this way of working is effective:
-- problems are framed earlier and more clearly
-- architectural decisions feel deliberate rather than reactive
-- systems evolve without constant destabilisation
-- delivery effort is spent in service of the right outcomes
+When this way of working is effective, problems are framed earlier and more clearly, architectural decisions feel deliberate rather than reactive, systems evolve without constant destabilisation, and delivery effort is spent in service of the right outcomes.
 
 The aim is not perfection, but coherence that holds under change.
