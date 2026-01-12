@@ -2,7 +2,7 @@
 layout: default
 page-title: >
     Architectural Strategy & Stewardship
-page-image: 'https://images.unsplash.com/photo-1573496546038-82f9c39f6365?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2069&q=80'
+page-image: 'https://images.unsplash.com/photo-1765720499824-14ad22d1d79a?q=80&w=1982&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
 nav-type: 
 nav-title: 
 nav-sort: 0
@@ -20,7 +20,7 @@ card-description:
 card-button: 
 card-sort: 0
 highlight: true
-highlight-image: 'https://images.unsplash.com/photo-1573496546038-82f9c39f6365?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2069&q=80'
+highlight-image: 'https://images.unsplash.com/photo-1765720499824-14ad22d1d79a?q=80&w=1982&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
 highlight-heading: 'Architectural Strategy & Stewardship'
 highlight-subheading: >
     Maintaining coherence as systems evolve
