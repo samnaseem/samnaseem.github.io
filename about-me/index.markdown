@@ -28,7 +28,7 @@ highlight-subheading:
 highlight-sort: 0
 sitemap: right
 sitemap-heading: About Me
-sitemap-sort: 2
+sitemap-sort: 3
 breadcrumbs: true
 breadcrumbs-title: About Me
 breadcrumbs-hidelast: true

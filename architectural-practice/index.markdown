@@ -26,7 +26,7 @@ highlight-subheading:
 highlight-sort: 0
 sitemap: right
 sitemap-heading: Architectural Practice
-sitemap-sort: 2
+sitemap-sort: 1
 breadcrumbs: true
 breadcrumbs-title: Architectural Practice
 breadcrumbs-hidelast: true
