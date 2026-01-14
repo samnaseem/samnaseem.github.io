@@ -2,12 +2,12 @@
 layout: default
 page-title: >
     About Me
-page-image: 'https://images.unsplash.com/photo-1733411676590-951bda1c25b8?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
+page-image: 'https://images.unsplash.com/photo-1688614598602-0a71fbfed6c5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
 nav-type: right
 nav-title: 'About Me'
 nav-sort: 5
 hero: true
-hero-image: 'https://images.unsplash.com/photo-1662237693450-b1512f9b456a?q=80&w=2832&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
+hero-image: 'https://images.unsplash.com/photo-1733411676590-951bda1c25b8?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
 hero-leader: 'IDENTITY'
 hero-heading: 'Independent Solutions Architect & System Author'
 hero-subheading: 'Clarity, Architecture & Long-Term System Coherence for Complex Organisations'
