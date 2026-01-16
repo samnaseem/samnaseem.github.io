@@ -1,0 +1,249 @@
+---
+---
+
+:root {
+    --navbar-height: 5rem;
+}
+
+body {
+    font-family: 'Lato';
+}
+
+h1 {
+    font-weight: bold;
+}
+
+h3 {
+    margin-top: 0.1em;
+}
+
+.image-default {
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    object-position: center;
+}
+
+.bg-gd-black-transparent {
+    background: linear-gradient(180deg, black, black, transparent);
+}
+
+.bg-gd-transparent-black {
+    background: linear-gradient(180deg, transparent, black);
+}
+
+.bg-frost {
+    backdrop-filter: blur(0.7rem);
+    -webkit-backdrop-filter: blur(0.7rem);
+    //background: linear-gradient(31deg, #212121,black, black, #00000063, #0000002e);
+    //background: linear-gradient(0deg, #2121218f, #00000063, #0000002e);
+    background: linear-gradient(0deg, #ffffff30, #00000063, #0000002e)
+}
+
+.border-frost {
+    border: 1px solid #4b4b4b59;
+}
+
+[data-highlight]::before{
+    content: attr(data-highlight);
+    display: block;
+    text-transform: uppercase;
+    font-size: 0.5em;
+    opacity: 0.5;
+    padding-bottom: 0.5em;
+}
+
+.text-shadow {
+    text-shadow: 1px 1px 3px black;
+}
+
+.navbar {
+    min-height: var(--navbar-height);
+    display: flex;
+    align-items: start;
+
+    .profile-pic {
+        width: 36px;
+        margin-right: 10px;
+    }
+
+    .profile-name {
+        vertical-align: middle;
+        font-family: 'Titillium Web';
+        font-weight: 600;
+    }
+
+    .nav-link,
+    .navbar-brand {
+        color: white;
+        transition: all .2s;
+    }
+
+    :has(div.show) {
+        background-color: black!important;
+        transition: all .2s;
+    }
+
+    :has(div.show) .nav-link,
+    :has(div.show) .navbar-brand {
+        color: white;
+        transition: all .2s;
+    }
+
+    .collapsing {
+        -webkit-transition: none;
+        transition: none;
+        display: none;
+    }
+
+    //@media only screen and (min-width: 576px) {
+        .nav-link {
+            font-size: 0.7em!important;
+            font-weight: normal!important;
+            opacity: 90%;
+            letter-spacing: 0.3em; //0.4em;
+            margin-left: 0.5em;
+        }
+    //}
+}
+
+.fixed-top-p + * {
+    padding-top: calc(var(--navbar-height))!important;
+}
+
+.fixed-top-m + * {
+    margin-top: calc(var(--navbar-height))!important;
+}
+
+.hero {
+    min-height: 40em; //45em;
+    object-fit: cover;
+    font-family: 'Montserrat';
+
+    h1 {
+        font-weight: 900;
+        font-size: 1.0em;
+    }
+
+    h2 {
+        font-size: 0.8em;
+    }
+
+    .hero-content {
+        margin-bottom: 10rem!important;
+    } 
+    
+    
+}
+
+.hero-followup {
+    position: relative;
+    top: -20em;
+
+    + * {
+        margin-top: -20em;
+    }
+
+    > div {
+        font-size: 0.9em;
+
+        h2 {
+            font-family: 'Montserrat';
+            font-weight: 700;
+            font-size: 0.9em!important;
+        }
+
+        h3 {
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+    }
+
+}
+
+.footer {
+    font-size: 0.8em!important;
+    font-weight: normal!important;
+    opacity: 60%;
+    letter-spacing: 0.2em;
+    //background: linear-gradient(0deg, #602b66,  black);
+    background: linear-gradient(0deg, #554026,  black);
+}
+
+.fa {
+    color: #333;
+    text-decoration: none;
+    padding: 0.3em;
+    background-color: gray;
+    border-radius: 1em;
+    width: 1.5em;
+    text-align: center;
+
+    :hover {
+        background-color: white;
+    }
+}
+
+.breadcrumb {
+    .breadcrumb-item, a,
+    .breadcrumb-item::before {
+        color: white;
+        text-transform: uppercase;
+        font-size: 0.9em;
+    }
+}
+
+.liquid-content {
+    sh1 {
+        font-size: 1rem;
+    }
+}
+
+//.row, hr {
+.row {
+    column-span: all;
+}
+
+hr {
+    break-before: avoid;
+}
+
+ul {
+    li {
+        //font-weight: lighter;
+    }
+}
+
+.column-span-all {
+    column-span: all;
+}
+
+.break-inside-avoid {
+    break-inside: avoid;
+}
+
+.break-after-avoid {
+    break-after: avoid;
+}
+
+ul.special {
+    li {
+        color: darkgray;
+
+        strong {
+            color: white;
+        }
+    }
+}
+
+p.special {
+    color: darkgray;
+
+    strong {
+        color: white;
+    }
+}
+
+//.pills {
+//    margin-top: 1em;
+//}
