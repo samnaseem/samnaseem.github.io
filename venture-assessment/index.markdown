@@ -1,10 +1,10 @@
 ---
 layout: va-default
 page-title: >
-    Principles & Boundaries
+    VenVenture Assessment
 page-image: 'https://images.unsplash.com/photo-1642115902617-2d48f6fcb7d5?q=80&w=1978&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
 nav-type: right
-nav-title: 'Principles & Boundaries'
+nav-title: 'Venture Assessment'
 nav-sort: 3
 hero: false
 hero-image: 
@@ -13,7 +13,7 @@ hero-subheading:
 hero-button: 
 card: true
 card-image: 'https://images.unsplash.com/photo-1642115902617-2d48f6fcb7d5?q=80&w=1978&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
-card-heading: 'Principles & Boundaries'
+card-heading: 'Venture Assessment'
 card-subheading: 'How judgement is guided and independence protected'
 card-description: >
     An outline of the principles that guide architectural judgement and the boundaries that protect independence. This page explains how decisions are approached, where responsibility sits, and why clear boundaries matter in complex technical environments.
@@ -25,72 +25,78 @@ highlight-heading:
 highlight-subheading: 
 highlight-sort: 0
 sitemap: right
-sitemap-heading: Principles & Boundaries
+sitemap-heading: Venture Assessment
 sitemap-sort: 2
 breadcrumbs: true
-breadcrumbs-title: Principles & Boundaries
+breadcrumbs-title: Venture Assessment
 breadcrumbs-hidelast: true
 ---
 
-# Principles & Boundaries
+# Venture Assessment Channel
 
-## The principles that guide judgement and the boundaries that protect it
+## This exists to assess whether a venture is worth participating in — not to help it exist.
 
-In complex technical environments, clarity is sustained not only by what is done, but by what is deliberately not done. Principles guide judgement. Boundaries protect independence, responsibility, and coherence over time.
+The Venture Assessment Channel is a private evaluation surface for early-stage or pre-formation ventures where technical architecture, system design, and long-term judgement materially affect viability.
 
-This page outlines the principles that inform my work and the boundaries that define how I engage.
+The default outcome is rejection.
 
-### Principles that guide judgement
+---
 
-These principles shape how decisions are approached, assessed, and revisited.
+## Why this exists
 
-Clarity before commitment is essential. Decisions made without shared understanding tend to harden assumptions prematurely and create downstream cost.
+Most ventures do not fail because of a lack of effort, ambition, or belief.  
+They fail because early decisions compound into structural debt long before execution reveals the damage.
 
-Responsibility should be explicit. Architectural decisions have consequences that persist beyond delivery, and ownership of those consequences should be understood rather than implied.
+This channel exists to intervene *before* that happens — not by fixing ideas, but by judging whether they are coherent enough to justify long-term technical and architectural responsibility.
 
-Boundaries matter. Systems remain coherent when responsibilities are clearly defined and respected, even as they evolve.
+It exists to decide what is worth saying no to.
 
-Context outweighs preference. There is rarely a universally correct solution. Judgement must account for organisational maturity, constraints, and incentives.
+---
 
-Reversibility should be preserved where possible. Decisions that are difficult to unwind deserve disproportionate attention.
+## Positioning and stance
 
-### Boundaries that protect independence
+Participation through this channel is based on judgement, not enthusiasm.
 
-Clear boundaries are necessary to maintain objective judgement and avoid role confusion.
+Where involvement occurs, it is because:
+- the problem is structurally interesting,
+- the technical risk is real and material,
+- and the long-term obligation warrants asymmetric terms.
 
-I do not embed as an internal role or assume line management responsibility. This preserves independence and prevents architectural judgement from being constrained by organisational dynamics.
+This is not a collaborative sandbox.  
+It is a gate.
 
-I do not operate as delivery capacity. My role is to shape direction and assess decisions, not to compensate for resourcing gaps.
+---
 
-I do not accept ownership of execution. Responsibility for delivery remains with the organisation and its teams.
+## What this is not
 
-I do not align architectural judgement to specific vendors, platforms, or tools. Recommendations are made in the context of the system, not a product.
+This channel is not:
+- a service  
+- a mentorship arrangement  
+- an incubator  
+- a substitute for missing founder capability  
+- a way to validate or refine ideas  
 
-### Managing pressure and urgency
+It does not exist to make ventures succeed.  
+It exists to avoid participating in those that will fail expensively.
 
-Urgency is common in complex environments. Pressure to act quickly can obscure risk and narrow options prematurely.
+---
 
-One of the roles of architectural judgement is to slow decisions at the moments where speed would increase long-term cost. This is not resistance to progress, but protection of intent.
+## Typical outcomes
 
-Where urgency exists, it is addressed deliberately rather than reflexively.
+Most assessments end with a clear decision not to proceed.
 
-### Independence and trust
+This is considered a successful outcome.
 
-Independence is not distance. It is the ability to engage openly without obligation to a particular outcome.
+Where participation does occur, it is deliberate, bounded, and structured around responsibility rather than effort.
 
-Trust is built when stakeholders know:
-- advice is not influenced by delivery incentives
-- challenges are raised early rather than retrospectively
-- uncertainty is acknowledged rather than concealed
-- decisions are supported even when they are difficult
+---
 
-These conditions allow better decisions to be made under uncertainty.
+## Further context
 
-### Why boundaries matter
+Further detail is available for those who need to understand:
+- why this channel exists,
+- how assessment thinking is framed,
+- what participation may look like,
+- and how access occurs.
 
-Without boundaries, roles blur, responsibility diffuses, and architectural intent erodes.
-
-With them, judgement remains clear, engagement remains healthy, and systems are more likely to evolve without accumulating avoidable complexity.
-
-The aim of these principles and boundaries is not control, but coherence that holds as conditions change.
-
+No submissions are accepted through this site.
