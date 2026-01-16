@@ -1,7 +1,7 @@
 ---
 layout: va-default
 page-title: >
-    Assessment Philosophy
+    Assessment Philosophy | Venture Assessment
 page-image: 
 va-nav-type: right
 va-nav-title: Assessment Philosophy

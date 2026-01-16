@@ -1,7 +1,7 @@
 ---
 layout: va-default
 page-title: >
-    Participation Outcomes
+    Participation Outcomes | Venture Assessment
 page-image: 
 va-nav-type: right
 va-nav-title: Participation Outcomes
