@@ -12,7 +12,7 @@
                 <div class="col-md-6 g-0">
                     {% assign sorted_pages = site.pages | where:"co-sitemap", "right" | sort: "co-sitemap-sort" %}
                     {% for p in sorted_pages %}
-                    <p><a class="py-1 text-dark text-decoration-none" href="{{p.url}}">{{p.va-sitemap-heading}}</a></p>
+                    <p><a class="py-1 text-dark text-decoration-none" href="{{p.url}}">{{p.co-sitemap-heading}}</a></p>
                     {% endfor %}
                 </div>
             </div>
