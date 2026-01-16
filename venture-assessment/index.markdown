@@ -1,11 +1,11 @@
 ---
 layout: va-default
 page-title: >
-    VenVenture Assessment
+    Venture Assessment
 page-image: 
-nav-type: 
-nav-title: 
-nav-sort: 
+nav-type: right
+nav-title: Home
+nav-sort: 0
 hero: false
 hero-image: 
 hero-heading: 
@@ -23,9 +23,9 @@ highlight-image:
 highlight-heading: 
 highlight-subheading: 
 highlight-sort: 
-sitemap: 
-sitemap-heading:
-sitemap-sort: 
+sitemap: Left
+sitemap-heading: Home
+sitemap-sort: 0
 breadcrumbs: false
 breadcrumbs-title: 
 breadcrumbs-hidelast: false
