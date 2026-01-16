@@ -25,7 +25,10 @@ h3 {
 }
 
 .bg-gd-black-transparent {
-    background: linear-gradient(180deg, black, black, transparent);
+    background-color: black;
+    //border-bottom-color: gray;
+    //border-bottom-style: solid;
+    //border-bottom-width: 0.1px;
 }
 
 .bg-gd-transparent-black {
@@ -167,7 +170,7 @@ h3 {
     opacity: 60%;
     letter-spacing: 0.2em;
     //background: linear-gradient(0deg, #602b66,  black);
-    background: linear-gradient(0deg, #554026,  black);
+    //background: linear-gradient(0deg, #554026,  black);
 }
 
 .fa {
