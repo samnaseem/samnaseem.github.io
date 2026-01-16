@@ -33,7 +33,7 @@ breadcrumbs-hidelast: false
 
 # Venture Assessment Channel
 
-## This exists to assess whether a venture is worth participating in — not to help it exist.
+## This exists to assess whether a venture is worth participating in - not to help it exist.
 
 The Venture Assessment Channel is a private evaluation surface for early-stage or pre-formation ventures where technical architecture, system design, and long-term judgement materially affect viability.
 
@@ -46,7 +46,7 @@ The default outcome is rejection.
 Most ventures do not fail because of a lack of effort, ambition, or belief.  
 They fail because early decisions compound into structural debt long before execution reveals the damage.
 
-This channel exists to intervene *before* that happens — not by fixing ideas, but by judging whether they are coherent enough to justify long-term technical and architectural responsibility.
+This channel exists to intervene before that happens... not by fixing ideas, but by judging whether they are coherent enough to justify long-term technical and architectural responsibility.
 
 It exists to decide what is worth saying no to.
 
