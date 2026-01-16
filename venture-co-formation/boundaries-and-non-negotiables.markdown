@@ -5,7 +5,7 @@ page-title: >
 page-image: 
 co-nav-type: right
 co-nav-title: Boundaries & Non-Negotiables
-co-nav-sort: 2
+co-nav-sort: 3
 hero: false
 hero-image: 
 hero-heading: 
@@ -25,7 +25,7 @@ highlight-subheading:
 highlight-sort: 
 co-sitemap: left
 co-sitemap-heading: Boundaries & Non-Negotiables
-co-sitemap-sort: 2
+co-sitemap-sort: 3
 breadcrumbs: false
 breadcrumbs-title: 
 breadcrumbs-hidelast: false
