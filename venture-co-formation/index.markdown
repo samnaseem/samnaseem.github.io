@@ -1,5 +1,5 @@
 ---
-layout: va-default
+layout: co-default
 page-title: >
     Venture Co-Formation
 page-image: 
