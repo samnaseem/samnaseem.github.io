@@ -4,7 +4,7 @@
 
 layout: home
 page-title: >
-    Sam Naseem | Independent Solutions Architect & System Author
+    Independent Solutions Architect & System Author
 sitemap: left
 sitemap-heading: Home
 sitemap-sort: 1
