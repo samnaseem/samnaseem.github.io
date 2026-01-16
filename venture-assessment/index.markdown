@@ -23,7 +23,7 @@ highlight-image:
 highlight-heading: 
 highlight-subheading: 
 highlight-sort: 
-va-sitemap: Left
+va-sitemap: left
 va-sitemap-heading: Home
 va-sitemap-sort: 0
 breadcrumbs: false
