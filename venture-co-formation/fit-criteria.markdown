@@ -1,10 +1,10 @@
 ---
 layout: co-default
 page-title: >
-    What Qualifies as a Fit | Venture Co-Formation
+    Fit Criteria | Venture Co-Formation
 page-image: 
 co-nav-type: right
-co-nav-title: What Qualifies as a Fit
+co-nav-title: Fit Criteria
 co-nav-sort: 2
 hero: false
 hero-image: 
@@ -24,14 +24,14 @@ highlight-heading:
 highlight-subheading: 
 highlight-sort: 
 co-sitemap: left
-co-sitemap-heading: What Qualifies as a Fit
+co-sitemap-heading: Fit Criteria
 co-sitemap-sort: 2
 breadcrumbs: false
 breadcrumbs-title: 
 breadcrumbs-hidelast: false
 ---
 
-# What Qualifies as a Fit
+# Fit Criteria
 
 This page exists to determine whether Venture Co-Formation is structurally appropriate **before** any interaction occurs.
 
