@@ -2,34 +2,33 @@
 layout: va-default
 page-title: >
     VenVenture Assessment
-page-image: 'https://images.unsplash.com/photo-1642115902617-2d48f6fcb7d5?q=80&w=1978&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
-nav-type: right
-nav-title: 'Venture Assessment'
-nav-sort: 3
+page-image: 
+nav-type: 
+nav-title: 
+nav-sort: 
 hero: false
 hero-image: 
 hero-heading: 
 hero-subheading: 
 hero-button: 
-card: true
-card-image: 'https://images.unsplash.com/photo-1642115902617-2d48f6fcb7d5?q=80&w=1978&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
-card-heading: 'Venture Assessment'
-card-subheading: 'How judgement is guided and independence protected'
-card-description: >
-    An outline of the principles that guide architectural judgement and the boundaries that protect independence. This page explains how decisions are approached, where responsibility sits, and why clear boundaries matter in complex technical environments.
-card-button: 'Read more'
-card-sort: 3
+card: false
+card-image: 
+card-heading: 
+card-subheading: 
+card-description: 
+card-button: 
+card-sort: 
 highlight: false
 highlight-image: 
 highlight-heading: 
 highlight-subheading: 
-highlight-sort: 0
-sitemap: right
-sitemap-heading: Venture Assessment
-sitemap-sort: 2
-breadcrumbs: true
-breadcrumbs-title: Venture Assessment
-breadcrumbs-hidelast: true
+highlight-sort: 
+sitemap: 
+sitemap-heading:
+sitemap-sort: 
+breadcrumbs: false
+breadcrumbs-title: 
+breadcrumbs-hidelast: false
 ---
 
 # Venture Assessment Channel
