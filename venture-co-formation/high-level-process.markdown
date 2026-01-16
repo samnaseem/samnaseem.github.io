@@ -23,7 +23,7 @@ highlight-image:
 highlight-heading: 
 highlight-subheading: 
 highlight-sort: 
-co-sitemap: left
+co-sitemap: right
 co-sitemap-heading: High-Level Process
 co-sitemap-sort: 4
 breadcrumbs: false

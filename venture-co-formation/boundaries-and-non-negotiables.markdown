@@ -23,7 +23,7 @@ highlight-image:
 highlight-heading: 
 highlight-subheading: 
 highlight-sort: 
-co-sitemap: left
+co-sitemap: right
 co-sitemap-heading: Boundaries & Non-Negotiables
 co-sitemap-sort: 3
 breadcrumbs: false
