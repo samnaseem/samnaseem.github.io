@@ -4,7 +4,7 @@ page-title: >
     Venture Assessment
 page-image: 
 va-nav-type: right
-va-nav-title: Home
+va-nav-title: Venture Assessment
 va-nav-sort: 0
 hero: false
 hero-image: 
@@ -24,7 +24,7 @@ highlight-heading:
 highlight-subheading: 
 highlight-sort: 
 va-sitemap: left
-va-sitemap-heading: Home
+va-sitemap-heading: Venture Assessment
 va-sitemap-sort: 0
 breadcrumbs: false
 breadcrumbs-title: 

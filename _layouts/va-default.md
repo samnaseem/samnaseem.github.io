@@ -5,5 +5,5 @@ layout: va-root
     <div class="liquid-content columns">
         {{content}}
     </div>
-    <hr class="mt-5 d-none d-sm-block"/>
+    <hr class="mb-3"/>
 </div>
