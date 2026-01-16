@@ -129,4 +129,7 @@ It exists to ensure that architectural judgement and long-term responsibility ar
 Saying no is the default.  
 Saying yes is consequential.
 
+---
+
+End of core context.
 
