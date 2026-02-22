@@ -1,7 +1,0 @@
-{% assign search = site.pages | where: "co-nav-type", "right" | sort: "co-nav-sort" %}
-{% for p in search %}
-  <li class="nav-item">
-    <a class="nav-link text-center text-uppercase fs-6 fw-bold ms-lg-4 ps-1 ms-md-3 pe-0 py-3 py-md-0 rounded"
-        href="{{p.url}}">{{p.co-nav-title}}</a>
-  </li>
-{% endfor %}
