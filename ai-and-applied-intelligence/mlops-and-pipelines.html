@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MLOps &amp; Pipelines | Sam Naseem</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=JetBrains+Mono:wght@300;400&family=Titillium+Web:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/style.css">
+<link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
+</head>
+<body>
+<div class="grain"></div>
+<nav class="site-nav">
+  <a class="nav-brand" href="../">
+    <img src="../images/profile-pic.jpeg" alt="Sam Naseem">
+    <span>Sam Naseem</span>
+  </a>
+  <button class="nav-toggle" aria-label="Menu">☰</button>
+  <div class="nav-links"><a href="../what-i-do/">What I Do</a>
+<a href="../how-i-work/">How I Work</a>
+<a href="../engagement-types/">Engagements</a>
+<a href="../architectural-practice/">Practice</a>
+<a href="../principles-and-boundaries/">Principles</a>
+<a href="../about-me/">About</a></div>
+</nav>
+<section class="page-hero"><div class="page-hero-inner">
+  <div class="breadcrumbs"><a href="../../">Home</a><span class="sep">/</span><a href="./">AI &amp; Applied Intelligence</a><span class="sep">/</span>MLOps</div>
+  <div class="section-label">Applied AI / 08</div>
+  <h1>MLOps &amp; Pipelines</h1>
+  <p class="lead">The operational infrastructure that makes machine learning work in production</p>
+</div></section>
+<section class="content"><div class="content-inner">
+
+<p>MLOps is the discipline that bridges the gap between a model that works in a notebook and a model that works in production. It is less visible than the models themselves, but it is where most AI initiatives actually succeed or fail.</p>
+
+<h2>What it is</h2>
+<p>MLOps (machine learning operations) is the set of practices, tools, and architectural patterns required to deploy, monitor, maintain, and govern machine learning models in production environments. It is the ML equivalent of DevOps: the operational discipline that turns experimental work into reliable, maintainable systems.</p>
+<p>Without MLOps, models degrade silently, retraining is manual and error prone, nobody knows which version of a model is running, and the gap between what data science produces and what production actually uses grows wider over time.</p>
+
+<h2>How it works</h2>
+<p>A mature MLOps practice typically includes automated data pipelines that prepare and validate training data, model training pipelines that can be triggered and tracked reproducibly, model registries that version and catalogue every model and its metadata, deployment pipelines that move models from development through staging to production, monitoring systems that track model performance, data drift, and prediction quality, and governance frameworks that ensure compliance, auditability, and accountability.</p>
+
+<h2>Where it creates real value</h2>
+<p>MLOps creates value by turning one off models into sustainable capabilities. Practical examples include ensuring production models are automatically retrained when performance degrades, providing visibility into which models are running, what data they were trained on, and how they are performing, reducing the time from model development to production deployment from months to days, enabling multiple teams to develop and deploy models without stepping on each other, and satisfying regulatory requirements for model explainability, auditability, and lineage.</p>
+
+<h2>Where it is commonly misapplied</h2>
+<p>The most common mistake is over engineering MLOps infrastructure before there are meaningful models to deploy. Organisations invest in elaborate platforms when they would be better served by a simple, well understood pipeline for their first few production models.</p>
+<p>MLOps is also misapplied when it is treated as a purely technical concern. Without organisational alignment on model ownership, retraining responsibilities, and governance, even excellent tooling fails to deliver value.</p>
+
+<h2>How it relates to architectural decisions</h2>
+<p>MLOps is fundamentally an architectural discipline. It determines how models interact with production systems, how data flows between training and inference, how model updates are deployed without disruption, and how the entire ML lifecycle is governed. The choice of MLOps architecture (managed platform versus custom pipeline, cloud native versus hybrid) is one of the most consequential decisions in any enterprise AI programme.</p>
+
+<h2>How it connects to other disciplines</h2>
+<p>MLOps supports every other discipline on this page. Every model built with <a href="supervised-learning.html">supervised learning</a>, <a href="deep-learning.html">deep learning</a>, or <a href="reinforcement-learning.html">reinforcement learning</a> needs MLOps to reach production reliably. It is particularly critical for <a href="generative-ai.html">generative AI</a> deployments where model updates, cost management, and quality monitoring are ongoing concerns. <a href="ai-strategy-and-governance.html">AI strategy and governance</a> relies on MLOps to provide the operational foundation for policy enforcement.</p>
+
+<div class="sibling-nav"><a href="generative-ai.html" class="sibling-link">&larr; Generative AI</a><a href="predictive-analytics.html" class="sibling-link">Predictive Analytics &rarr;</a></div>
+</div></section>
+<section class="section cta-section">
+  <div class="section-divider"></div>
+  <div class="section-inner">
+    <h2>Ready to bring <span class="accent">clarity</span> to complexity?</h2>
+    <p>Whether you are facing a complex technical decision, navigating organisational boundaries, or need an independent perspective with deep architectural and AI expertise.</p>
+    <a href="https://www.linkedin.com/in/samnaseem/" class="btn-primary" target="_blank" rel="noopener">Start a Conversation &rarr;</a>
+  </div>
+</section>
+<footer class="site-footer">
+  <div class="footer-links">
+    <img src="../images/profile-pic.jpeg" alt="">
+    <div class="footer-links-inner">
+      <a href="../what-i-do/">What I Do</a>
+      <a href="../how-i-work/">How I Work</a>
+      <a href="../engagement-types/">Engagements</a>
+      <a href="../architectural-practice/">Practice</a>
+      <a href="../principles-and-boundaries/">Principles</a>
+      <a href="../about-me/">About</a>
+      <a href="../ai-and-applied-intelligence/">AI &amp; Intelligence</a>
+      <a href="../venture-assessment/">Assessment</a>
+      <a href="../venture-co-formation/">Co Formation</a>
+    </div>
+  </div>
+  <div class="footer-copy">&copy; 2026 AI UVD</div>
+</footer>
+<script src="../js/main.js"></script>
+</body>
+</html>

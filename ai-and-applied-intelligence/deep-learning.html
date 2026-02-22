@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Deep Learning | Sam Naseem</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=JetBrains+Mono:wght@300;400&family=Titillium+Web:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/style.css">
+<link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
+</head>
+<body>
+<div class="grain"></div>
+<nav class="site-nav">
+  <a class="nav-brand" href="../">
+    <img src="../images/profile-pic.jpeg" alt="Sam Naseem">
+    <span>Sam Naseem</span>
+  </a>
+  <button class="nav-toggle" aria-label="Menu">☰</button>
+  <div class="nav-links"><a href="../what-i-do/">What I Do</a>
+<a href="../how-i-work/">How I Work</a>
+<a href="../engagement-types/">Engagements</a>
+<a href="../architectural-practice/">Practice</a>
+<a href="../principles-and-boundaries/">Principles</a>
+<a href="../about-me/">About</a></div>
+</nav>
+<section class="page-hero"><div class="page-hero-inner">
+  <div class="breadcrumbs"><a href="../../">Home</a><span class="sep">/</span><a href="./">AI &amp; Applied Intelligence</a><span class="sep">/</span>Deep Learning</div>
+  <div class="section-label">Core ML / 03</div>
+  <h1>Deep Learning</h1>
+  <p class="lead">Layered neural networks that learn complex representations from raw data</p>
+</div></section>
+<section class="content"><div class="content-inner">
+
+<p>Deep learning is the discipline behind the most visible AI breakthroughs of the past decade, from image recognition to language models. It is also the most computationally demanding and the most frequently misunderstood in terms of when it is genuinely necessary versus when simpler approaches would serve better.</p>
+
+<h2>What it is</h2>
+<p>Deep learning is a subset of machine learning that uses artificial neural networks with multiple layers (hence "deep") to learn representations of data at increasing levels of abstraction. Rather than being told which features of the data to pay attention to, a deep learning model discovers those features itself from the raw input.</p>
+<p>In practical terms, this means a deep learning system can look at raw images, text, audio, or sensor data and learn to extract the meaningful patterns without a human needing to manually define what those patterns are.</p>
+
+<h2>How it works</h2>
+<p>Data flows through successive layers of the network. Each layer transforms the data, extracting progressively higher level features. Early layers might detect edges in an image or word patterns in text. Later layers combine those features into concepts like "face" or "sentiment" or "anomaly." The network learns by adjusting millions (sometimes billions) of parameters to minimise prediction errors across the training data.</p>
+<p>The scale of computation and data required is significantly greater than traditional machine learning. This is not a detail. It is a fundamental architectural consideration.</p>
+
+<h2>Where it creates real value</h2>
+<p>Deep learning excels where the data is complex, unstructured, and high dimensional. Practical examples include image and video analysis (quality inspection, medical imaging, security), natural language understanding (document processing, customer communication, search), speech recognition and synthesis, time series analysis where patterns are non linear and deeply embedded, and any domain where the features that matter are too complex or numerous for a human to define manually.</p>
+<p>When the data warrants it and the infrastructure exists to support it, deep learning can achieve performance levels that other methods simply cannot match.</p>
+
+<h2>Where it is commonly misapplied</h2>
+<p>Deep learning is frequently chosen because it sounds impressive rather than because the problem requires it. For many enterprise use cases, simpler models (decision trees, logistic regression, gradient boosting) achieve comparable accuracy at a fraction of the cost and complexity.</p>
+<p>It is also misapplied when training data is limited (deep learning is data hungry), when interpretability is essential (neural networks are notoriously difficult to explain), when the infrastructure to train and serve models does not exist or is prohibitively expensive, or when the problem is well structured and does not require the model to discover its own features.</p>
+
+<h2>How it relates to architectural decisions</h2>
+<p>Deep learning has the heaviest infrastructure footprint of any ML discipline. Architectural decisions include compute strategy (cloud GPU, on premise, hybrid), model serving and latency requirements, data pipeline design for the volumes required, model versioning, retraining schedules and drift detection, and the operational team required to maintain production deep learning systems. Choosing deep learning without designing the architecture to support it is one of the most expensive mistakes an organisation can make in this space.</p>
+
+<h2>How it connects to other disciplines</h2>
+<p>Deep learning underpins <a href="computer-vision.html">computer vision</a>, powers modern <a href="natural-language-processing.html">natural language processing</a>, and is the foundation of <a href="generative-ai.html">generative AI</a>. It extends the principles of <a href="supervised-learning.html">supervised</a> and <a href="unsupervised-learning.html">unsupervised learning</a> into domains where traditional approaches cannot operate effectively. <a href="mlops-and-pipelines.html">MLOps</a> becomes essential when deep learning models are deployed at scale.</p>
+
+<div class="sibling-nav"><a href="unsupervised-learning.html" class="sibling-link">&larr; Unsupervised Learning</a><a href="reinforcement-learning.html" class="sibling-link">Reinforcement Learning &rarr;</a></div>
+</div></section>
+<section class="section cta-section">
+  <div class="section-divider"></div>
+  <div class="section-inner">
+    <h2>Ready to bring <span class="accent">clarity</span> to complexity?</h2>
+    <p>Whether you are facing a complex technical decision, navigating organisational boundaries, or need an independent perspective with deep architectural and AI expertise.</p>
+    <a href="https://www.linkedin.com/in/samnaseem/" class="btn-primary" target="_blank" rel="noopener">Start a Conversation &rarr;</a>
+  </div>
+</section>
+<footer class="site-footer">
+  <div class="footer-links">
+    <img src="../images/profile-pic.jpeg" alt="">
+    <div class="footer-links-inner">
+      <a href="../what-i-do/">What I Do</a>
+      <a href="../how-i-work/">How I Work</a>
+      <a href="../engagement-types/">Engagements</a>
+      <a href="../architectural-practice/">Practice</a>
+      <a href="../principles-and-boundaries/">Principles</a>
+      <a href="../about-me/">About</a>
+      <a href="../ai-and-applied-intelligence/">AI &amp; Intelligence</a>
+      <a href="../venture-assessment/">Assessment</a>
+      <a href="../venture-co-formation/">Co Formation</a>
+    </div>
+  </div>
+  <div class="footer-copy">&copy; 2026 AI UVD</div>
+</footer>
+<script src="../js/main.js"></script>
+</body>
+</html>

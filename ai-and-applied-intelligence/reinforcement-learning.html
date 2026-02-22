@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Reinforcement Learning | Sam Naseem</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=JetBrains+Mono:wght@300;400&family=Titillium+Web:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/style.css">
+<link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
+</head>
+<body>
+<div class="grain"></div>
+<nav class="site-nav">
+  <a class="nav-brand" href="../">
+    <img src="../images/profile-pic.jpeg" alt="Sam Naseem">
+    <span>Sam Naseem</span>
+  </a>
+  <button class="nav-toggle" aria-label="Menu">☰</button>
+  <div class="nav-links"><a href="../what-i-do/">What I Do</a>
+<a href="../how-i-work/">How I Work</a>
+<a href="../engagement-types/">Engagements</a>
+<a href="../architectural-practice/">Practice</a>
+<a href="../principles-and-boundaries/">Principles</a>
+<a href="../about-me/">About</a></div>
+</nav>
+<section class="page-hero"><div class="page-hero-inner">
+  <div class="breadcrumbs"><a href="../../">Home</a><span class="sep">/</span><a href="./">AI &amp; Applied Intelligence</a><span class="sep">/</span>Reinforcement Learning</div>
+  <div class="section-label">Core ML / 04</div>
+  <h1>Reinforcement Learning</h1>
+  <p class="lead">Systems that learn optimal behaviour through trial, error, and reward</p>
+</div></section>
+<section class="content"><div class="content-inner">
+
+<p>Reinforcement learning is fundamentally different from other machine learning approaches. Rather than learning from labelled data or discovering structure in existing datasets, it learns by doing, by taking actions in an environment and observing the consequences. It is the discipline behind game playing AI, robotics control, and increasingly, real world optimisation problems.</p>
+
+<h2>What it is</h2>
+<p>Reinforcement learning trains a system (called an agent) to make sequences of decisions by rewarding desirable outcomes and penalising undesirable ones. The agent explores its environment, tries different strategies, and gradually learns which actions lead to the best long term results.</p>
+<p>Think of it as learning through experience rather than instruction. Nobody tells the system the right answer. It discovers it by trying things and keeping track of what works.</p>
+
+<h2>How it works</h2>
+<p>The agent observes the current state of its environment, takes an action, receives a reward signal (positive or negative), and updates its strategy accordingly. Over many thousands or millions of iterations, it converges on behaviour that maximises cumulative reward.</p>
+<p>The key challenge is balancing exploration (trying new things to discover better strategies) with exploitation (using what has already been learned to maximise reward). This balance is a design decision with significant implications for how quickly and reliably the system learns.</p>
+
+<h2>Where it creates real value</h2>
+<p>Reinforcement learning is most powerful where decisions are sequential, outcomes depend on a series of choices rather than a single prediction, and the optimal strategy is not obvious from historical data alone. Practical examples include dynamic pricing and resource allocation, supply chain and logistics optimisation, automated trading strategies, robotic process control, personalisation engines that adapt to user behaviour over time, and network routing and infrastructure management.</p>
+
+<h2>Where it is commonly misapplied</h2>
+<p>Reinforcement learning requires an environment to interact with, whether real or simulated. When that environment is expensive to simulate, slow to provide feedback, or has catastrophic failure modes, reinforcement learning becomes impractical or dangerous.</p>
+<p>It is also frequently misapplied to problems that are better solved by supervised learning. If you have good historical data and a clear prediction target, reinforcement learning's trial and error approach adds unnecessary complexity. The overhead of designing reward functions, managing exploration, and handling instability during training is substantial.</p>
+
+<h2>How it relates to architectural decisions</h2>
+<p>Reinforcement learning raises unique architectural questions: simulation infrastructure (you often need a realistic environment for the agent to train in), safety constraints (how do you prevent the agent from taking catastrophic actions during exploration), latency requirements (real time decision making demands low latency inference), and continuous learning (reinforcement learning agents may need to keep learning in production, which has significant implications for stability and governance).</p>
+
+<h2>How it connects to other disciplines</h2>
+<p>Reinforcement learning combines with <a href="deep-learning.html">deep learning</a> (deep reinforcement learning uses neural networks to handle complex state spaces), benefits from <a href="mlops-and-pipelines.html">MLOps</a> for deployment and monitoring, and intersects with <a href="ai-strategy-and-governance.html">AI strategy and governance</a> where autonomous decision making raises questions about accountability and oversight. <a href="intelligent-automation.html">Intelligent automation</a> increasingly draws on reinforcement learning for adaptive process optimisation.</p>
+
+<div class="sibling-nav"><a href="deep-learning.html" class="sibling-link">&larr; Deep Learning</a><a href="natural-language-processing.html" class="sibling-link">NLP &rarr;</a></div>
+</div></section>
+<section class="section cta-section">
+  <div class="section-divider"></div>
+  <div class="section-inner">
+    <h2>Ready to bring <span class="accent">clarity</span> to complexity?</h2>
+    <p>Whether you are facing a complex technical decision, navigating organisational boundaries, or need an independent perspective with deep architectural and AI expertise.</p>
+    <a href="https://www.linkedin.com/in/samnaseem/" class="btn-primary" target="_blank" rel="noopener">Start a Conversation &rarr;</a>
+  </div>
+</section>
+<footer class="site-footer">
+  <div class="footer-links">
+    <img src="../images/profile-pic.jpeg" alt="">
+    <div class="footer-links-inner">
+      <a href="../what-i-do/">What I Do</a>
+      <a href="../how-i-work/">How I Work</a>
+      <a href="../engagement-types/">Engagements</a>
+      <a href="../architectural-practice/">Practice</a>
+      <a href="../principles-and-boundaries/">Principles</a>
+      <a href="../about-me/">About</a>
+      <a href="../ai-and-applied-intelligence/">AI &amp; Intelligence</a>
+      <a href="../venture-assessment/">Assessment</a>
+      <a href="../venture-co-formation/">Co Formation</a>
+    </div>
+  </div>
+  <div class="footer-copy">&copy; 2026 AI UVD</div>
+</footer>
+<script src="../js/main.js"></script>
+</body>
+</html>

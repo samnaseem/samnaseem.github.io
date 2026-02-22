@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Generative AI | Sam Naseem</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=JetBrains+Mono:wght@300;400&family=Titillium+Web:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/style.css">
+<link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
+</head>
+<body>
+<div class="grain"></div>
+<nav class="site-nav">
+  <a class="nav-brand" href="../">
+    <img src="../images/profile-pic.jpeg" alt="Sam Naseem">
+    <span>Sam Naseem</span>
+  </a>
+  <button class="nav-toggle" aria-label="Menu">☰</button>
+  <div class="nav-links"><a href="../what-i-do/">What I Do</a>
+<a href="../how-i-work/">How I Work</a>
+<a href="../engagement-types/">Engagements</a>
+<a href="../architectural-practice/">Practice</a>
+<a href="../principles-and-boundaries/">Principles</a>
+<a href="../about-me/">About</a></div>
+</nav>
+<section class="page-hero"><div class="page-hero-inner">
+  <div class="breadcrumbs"><a href="../../">Home</a><span class="sep">/</span><a href="./">AI &amp; Applied Intelligence</a><span class="sep">/</span>Generative AI</div>
+  <div class="section-label">Applied AI / 07</div>
+  <h1>Generative AI</h1>
+  <p class="lead">Systems that create new content rather than just analysing what already exists</p>
+</div></section>
+<section class="content"><div class="content-inner">
+
+<p>Generative AI is the discipline that has captured the most public attention in recent years. It refers to systems that produce new content: text, images, code, audio, video, or structured data. Understanding what it can and cannot do, and where it fits within an enterprise architecture, is now a critical capability for any technical leader.</p>
+
+<h2>What it is</h2>
+<p>Unlike traditional AI which classifies, predicts, or extracts from existing data, generative AI creates new outputs. A generative model can write a report, produce an image from a text description, generate code from a specification, create synthetic training data, or draft responses to customer queries.</p>
+<p>The underlying technology is typically a large neural network (a large language model for text, a diffusion model for images) that has been trained on vast amounts of existing content and has learned the statistical patterns well enough to produce new content that follows those patterns.</p>
+
+<h2>How it works</h2>
+<p>For text generation, large language models predict the most probable next token (word or sub word) given all the tokens that came before. By chaining these predictions, the model generates coherent, fluent text. The model can be steered through prompts, fine tuning on domain specific data, or reinforcement learning from human feedback.</p>
+<p>For image generation, diffusion models learn to gradually add structure to noise, guided by a text description or other conditioning input. The result is an image that matches the description, created from scratch rather than retrieved from a database.</p>
+
+<h2>Where it creates real value</h2>
+<p>Generative AI is most valuable where content creation is a bottleneck, where personalisation at scale is needed, or where the creative starting point matters more than the final polish. Practical examples include drafting and iterating on written content (marketing, documentation, communications), code generation and developer productivity tools, creating synthetic data for training other models, personalised customer interactions at scale, rapid prototyping of designs and concepts, and summarisation of large document sets.</p>
+
+<h2>Where it is commonly misapplied</h2>
+<p>Generative AI produces plausible output, not necessarily accurate output. It can confidently state things that are factually wrong (hallucination). It is commonly misapplied when accuracy is critical and human review is not built into the workflow, when the generated content could create legal, regulatory, or reputational risk, when the organisation treats generation as a replacement for expertise rather than an accelerator, when intellectual property implications of generated content are not understood, or when cost at scale has not been properly modelled.</p>
+
+<h2>How it relates to architectural decisions</h2>
+<p>Generative AI introduces architectural decisions around model selection (hosted API versus self hosted, general versus domain specific), cost management (token based pricing scales rapidly), data governance (what data touches the model and where does it go), quality assurance pipelines (how generated content is reviewed before it reaches users), and integration design (how generative capabilities are embedded into existing workflows without creating dependency on a single provider). The pace of change in this space makes architectural flexibility particularly important.</p>
+
+<h2>How it connects to other disciplines</h2>
+<p>Generative AI is built on <a href="deep-learning.html">deep learning</a>, shares foundations with <a href="natural-language-processing.html">NLP</a> (for text) and <a href="computer-vision.html">computer vision</a> (for images), and is closely governed by <a href="responsible-ai.html">responsible AI</a> principles. <a href="ai-strategy-and-governance.html">AI strategy and governance</a> is essential for organisations adopting generative AI to ensure it is deployed safely, cost effectively, and in alignment with business objectives.</p>
+
+<div class="sibling-nav"><a href="computer-vision.html" class="sibling-link">&larr; Computer Vision</a><a href="mlops-and-pipelines.html" class="sibling-link">MLOps &rarr;</a></div>
+</div></section>
+<section class="section cta-section">
+  <div class="section-divider"></div>
+  <div class="section-inner">
+    <h2>Ready to bring <span class="accent">clarity</span> to complexity?</h2>
+    <p>Whether you are facing a complex technical decision, navigating organisational boundaries, or need an independent perspective with deep architectural and AI expertise.</p>
+    <a href="https://www.linkedin.com/in/samnaseem/" class="btn-primary" target="_blank" rel="noopener">Start a Conversation &rarr;</a>
+  </div>
+</section>
+<footer class="site-footer">
+  <div class="footer-links">
+    <img src="../images/profile-pic.jpeg" alt="">
+    <div class="footer-links-inner">
+      <a href="../what-i-do/">What I Do</a>
+      <a href="../how-i-work/">How I Work</a>
+      <a href="../engagement-types/">Engagements</a>
+      <a href="../architectural-practice/">Practice</a>
+      <a href="../principles-and-boundaries/">Principles</a>
+      <a href="../about-me/">About</a>
+      <a href="../ai-and-applied-intelligence/">AI &amp; Intelligence</a>
+      <a href="../venture-assessment/">Assessment</a>
+      <a href="../venture-co-formation/">Co Formation</a>
+    </div>
+  </div>
+  <div class="footer-copy">&copy; 2026 AI UVD</div>
+</footer>
+<script src="../js/main.js"></script>
+</body>
+</html>

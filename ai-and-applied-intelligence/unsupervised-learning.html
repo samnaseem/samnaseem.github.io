@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Unsupervised Learning | Sam Naseem</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=JetBrains+Mono:wght@300;400&family=Titillium+Web:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/style.css">
+<link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
+</head>
+<body>
+<div class="grain"></div>
+<nav class="site-nav">
+  <a class="nav-brand" href="../">
+    <img src="../images/profile-pic.jpeg" alt="Sam Naseem">
+    <span>Sam Naseem</span>
+  </a>
+  <button class="nav-toggle" aria-label="Menu">☰</button>
+  <div class="nav-links"><a href="../what-i-do/">What I Do</a>
+<a href="../how-i-work/">How I Work</a>
+<a href="../engagement-types/">Engagements</a>
+<a href="../architectural-practice/">Practice</a>
+<a href="../principles-and-boundaries/">Principles</a>
+<a href="../about-me/">About</a></div>
+</nav>
+<section class="page-hero"><div class="page-hero-inner">
+  <div class="breadcrumbs"><a href="../../">Home</a><span class="sep">/</span><a href="./">AI &amp; Applied Intelligence</a><span class="sep">/</span>Unsupervised Learning</div>
+  <div class="section-label">Core ML / 02</div>
+  <h1>Unsupervised Learning</h1>
+  <p class="lead">Discovering hidden structure in data without predefined answers</p>
+</div></section>
+<section class="content"><div class="content-inner">
+
+<p>Where supervised learning relies on someone telling the system what to look for, unsupervised learning is about letting the data reveal its own structure. It is particularly powerful in situations where you know the data holds value but you do not yet know what questions to ask.</p>
+
+<h2>What it is</h2>
+<p>Unsupervised learning is a method of finding patterns, groupings, or structure in data without labelled examples. The system is not told what the right answer is. Instead, it examines the data and identifies natural clusters, associations, or anomalies that may not be visible through manual analysis.</p>
+<p>If supervised learning is teaching by example, unsupervised learning is exploration. You give the system data and ask: what is in here that I have not noticed?</p>
+
+<h2>How it works</h2>
+<p>The most common techniques include clustering (grouping similar records together, such as customer segments or behavioural profiles), dimensionality reduction (simplifying complex data into its most meaningful dimensions to reveal underlying patterns), and anomaly detection (identifying records that do not fit any established pattern, which often surface fraud, errors, or unusual behaviour).</p>
+<p>The system works by measuring similarity and distance between data points, iteratively grouping or separating them until a stable structure emerges.</p>
+
+<h2>Where it creates real value</h2>
+<p>Unsupervised learning is most valuable when you need to make sense of large, complex datasets without a clear starting hypothesis. Practical examples include discovering customer segments that marketing has not yet identified, detecting anomalous network activity or transaction patterns, finding natural groupings in product usage data to inform roadmap decisions, reducing noise in large datasets before applying supervised learning, and identifying redundancy or overlap across enterprise systems during integration.</p>
+<p>It is also often the first step in a larger analytical pipeline, preparing and structuring data that other models will then use.</p>
+
+<h2>Where it is commonly misapplied</h2>
+<p>The biggest risk with unsupervised learning is over interpreting results. The system will always find clusters, whether or not those clusters are meaningful. Without domain expertise to validate the output, organisations can end up acting on patterns that are statistically real but commercially meaningless.</p>
+<p>It is also misapplied when the expectation is a definitive answer. Unsupervised learning generates hypotheses and structure, not conclusions. It requires human judgement to determine what the discovered patterns actually mean.</p>
+
+<h2>How it relates to architectural decisions</h2>
+<p>Architecturally, unsupervised learning raises questions about data quality (the output is only as meaningful as the input), scalability (clustering large datasets can be computationally expensive), interpretability (how do you explain to stakeholders what the system found and why it matters), and pipeline design (unsupervised outputs often feed into downstream supervised models or business processes that need to be designed for this flow).</p>
+
+<h2>How it connects to other disciplines</h2>
+<p>Unsupervised learning frequently works alongside <a href="supervised-learning.html">supervised learning</a> (providing structure that supervised models then exploit), feeds into <a href="predictive-analytics.html">predictive analytics</a> (by revealing segments or anomalies that become prediction targets), and shares foundational mathematics with <a href="deep-learning.html">deep learning</a> (which can perform unsupervised learning at scale through techniques like autoencoders).</p>
+
+<div class="sibling-nav"><a href="supervised-learning.html" class="sibling-link">&larr; Supervised Learning</a><a href="deep-learning.html" class="sibling-link">Deep Learning &rarr;</a></div>
+</div></section>
+<section class="section cta-section">
+  <div class="section-divider"></div>
+  <div class="section-inner">
+    <h2>Ready to bring <span class="accent">clarity</span> to complexity?</h2>
+    <p>Whether you are facing a complex technical decision, navigating organisational boundaries, or need an independent perspective with deep architectural and AI expertise.</p>
+    <a href="https://www.linkedin.com/in/samnaseem/" class="btn-primary" target="_blank" rel="noopener">Start a Conversation &rarr;</a>
+  </div>
+</section>
+<footer class="site-footer">
+  <div class="footer-links">
+    <img src="../images/profile-pic.jpeg" alt="">
+    <div class="footer-links-inner">
+      <a href="../what-i-do/">What I Do</a>
+      <a href="../how-i-work/">How I Work</a>
+      <a href="../engagement-types/">Engagements</a>
+      <a href="../architectural-practice/">Practice</a>
+      <a href="../principles-and-boundaries/">Principles</a>
+      <a href="../about-me/">About</a>
+      <a href="../ai-and-applied-intelligence/">AI &amp; Intelligence</a>
+      <a href="../venture-assessment/">Assessment</a>
+      <a href="../venture-co-formation/">Co Formation</a>
+    </div>
+  </div>
+  <div class="footer-copy">&copy; 2026 AI UVD</div>
+</footer>
+<script src="../js/main.js"></script>
+</body>
+</html>
